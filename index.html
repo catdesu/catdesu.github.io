@@ -7,10 +7,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
     <title>David Aeschlimann - Mon CV</title>
 </head>
-<body>
-    <nav class="navbar navbar-light bg-light navbar-expand-lg" id="test">
+<body data-spy="scroll" data-target=".navbar" data-offset="60">
+    <nav class="navbar fixed-top navbar-light bg-light navbar-expand-lg" id="nav">
         <div class="container-fluid">
             <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -22,18 +23,46 @@
                     <li class="nav-item"><a class="nav-link" href="#career">Mon parcours</a></li>
                     <li class="nav-item"><a class="nav-link" href="#projects">Quelques projets</a></li>
                 </ul>
-                <ul class="navbar-nav">
-                    <li class="nav-link">
-                        <div class="form-check form-switch fg-light">
-                            <label class="form-check-label" id="toggleSwitchLabel" for="toggleSwitch">Thème sombre : désactivé</label>
-                            <input class="form-check-input" type="checkbox" id="toggleSwitch">
-                        </div>
-                    </li>
-                </ul>
             </div>
+            <span class="navbar-text">
+                <div class="form-check form-switch fg-light">
+                    <label class="form-check-label" id="toggleSwitchLabel" for="toggleSwitch">Thème sombre</label>
+                    <input class="form-check-input" type="checkbox" id="toggleSwitch">
+                </div>
+            </span>
         </div>
     </nav>
-</body>
+
+    <section id="presentation">
+        <div class="container h-75">
+            <div class="row justify-content-center align-items-center h-100">
+                <div class="row main shadow">
+                    <div class="col-lg-8">
+                        <div class="d-none d-md-block">
+                            <h1>David Aeschlimann</h1>
+                            <p class="title"><strong>Apprenti développeur d'applications</strong></p>
+                        </div>
+                        <div class="d-block d-md-none">
+                            <h1>David Aeschlimann</h1>
+                            <p class="title">Apprenti développeur d'applications</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 text-center text-lg-right">
+                        <img src="imgs/selfPicture/default.png" alt="Ma photo" class="img-fluid rounded-circle" id="photo" style="max-height: 320px" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="separator"></div>
+
+    <footer class="bg-light text-center text-lg-start">
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2021 Copyright: David Aeschlimann
+        </div>
+    </footer>
+    </body>
 </html>
 
 <script>
@@ -45,13 +74,11 @@
         {
             if (checkbox.checked) 
             {
-                document.getElementById('toggleSwitchLabel').innerHTML = "Thème sombre : activé";
-                document.getElementById("test").className = "navbar navbar-dark bg-dark navbar-expand-md";
+                document.getElementById("nav").className = "navbar navbar-dark bg-dark navbar-expand-md";
             } 
             else 
             {
-                document.getElementById('toggleSwitchLabel').innerHTML = "Thème sombre : désactivé";
-                document.getElementById("test").className = "navbar navbar-light bg-light navbar-expand-md";
+                document.getElementById("nav").className = "navbar navbar-light bg-light navbar-expand-md";
             }
         });
     });
