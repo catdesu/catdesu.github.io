@@ -7,11 +7,34 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/timeline.css" />
     <link rel="stylesheet" href="css/style.css">
     <title>David Aeschlimann - Mon CV</title>
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="60">
-    <nav class="navbar fixed-top navbar-light bg-light navbar-expand-lg" id="nav">
+    
+
+    <section id="top">
+        <div class="container h-75">
+            <div class="row justify-content-center align-items-center h-100">
+                <div class="col-lg-8">
+                    <div class="d-none d-md-block">
+                        <h1>David Aeschlimann</h1>
+                        <hr>
+                        <p class="title text-white"><strong>Apprenti développeur d'applications</strong></p>
+                    </div>
+                    <div class="d-block d-md-none">
+                        <h1>David Aeschlimann</h1>
+                        <hr>
+                        <p class="title text-white">Apprenti développeur d'applications</p>
+                    </div>
+                </div>
+            </div>
+            <a href="#career" class="ca3-scroll-down-link ca3-scroll-down-arrow" data-ca3_iconfont="ETmodules" data-ca3_icon=""></a>
+        </div>
+    </section>
+
+    <nav class="navbar navbar-light bg-light navbar-expand-lg" id="nav">
         <div class="container-fluid">
             <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -33,29 +56,70 @@
         </div>
     </nav>
 
-    <section id="presentation">
+    <section id="career">
         <div class="container h-75">
+            <h2>Mon parcours</h2>
             <div class="row justify-content-center align-items-center h-100">
-                <div class="row main shadow">
-                    <div class="col-lg-8">
-                        <div class="d-none d-md-block">
-                            <h1>David Aeschlimann</h1>
-                            <p class="title"><strong>Apprenti développeur d'applications</strong></p>
-                        </div>
-                        <div class="d-block d-md-none">
-                            <h1>David Aeschlimann</h1>
-                            <p class="title">Apprenti développeur d'applications</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 text-center text-lg-right">
-                        <img src="imgs/selfPicture/default.png" alt="Ma photo" class="img-fluid rounded-circle" id="photo" style="max-height: 320px" />
-                    </div>
+                <div class="col-lg-12">
+                    <h3>Expériences professionnelles</h3>
+                    <ul class="timeline">
+                        <li>
+                            <span>Centre Orif, Pomy</span>
+                            <span class="float-end">2020 - Maintenant</span>
+                            <p>informaticien CFC</p>
+                        </li>
+                        <li>
+                            <span>Centre Orif, Pomy & La-Chaux-de-Fonds</span>
+                            <span class="float-end">2019 - 2020</span>
+                            <p>informaticien</p>
+                        </li>
+                        <li>
+                            <span>Infoteam SA, Givisiez</span>
+                            <span class="float-end">2018</span>
+                            <p>informaticien</p>
+                        </li>
+                        <li>
+                            <span>Charles Marion SA, Domdidier</span>
+                            <span class="float-end">2017</span>
+                            <p>Automaticien</p>
+                        </li>
+                        <li>
+                            <span>Micarna, Courtepin</span>
+                            <span class="float-end">2017</span>
+                            <p>Opérateur sur machine automatisée</p>
+                        </li>
+                    </ul>
+                    <h3>Formation</h3>
+                    <ul class="timeline">
+                        <li>
+                            <span>EPSIC, Lausanne</span>
+                            <span class="float-end">2020 - Maintenant</span>
+                            <p>Informaticien (développeur d'applications)</p>
+                        </li>
+                        <li>
+                            <span>IFP, Gland</span>
+                            <span class="float-end">2016 - 2018</span>
+                            <p>Aide-comptable</p>
+                        </li>
+                        <li>
+                            <span>Cycle d'orientation de la Broye, Estavayer-le-Lac</span>
+                            <span class="float-end">2009 - 2013</span>
+                            <p></p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="text-center">
+                    <a class="btn btn-outline-primary" target="_blank" href="files/cv.pdf">Télécharger la version papier de mon CV.</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <div class="separator"></div>
+    <section id="profile">
+        <div class="container bg-secondary">
+
+        </div>
+    </section>
 
     <footer class="bg-light text-center text-lg-start">
         <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
@@ -74,11 +138,11 @@
         {
             if (checkbox.checked) 
             {
-                document.getElementById("nav").className = "navbar fixed-top navbar-dark bg-dark navbar-expand-md";
+                document.getElementById("nav").className = "navbar fixed-top navbar-dark bg-dark navbar-expand-lg";
             } 
             else 
             {
-                document.getElementById("nav").className = "navbar fixed-top navbar-light bg-light navbar-expand-md";
+                document.getElementById("nav").className = "navbar fixed-top navbar-light bg-light navbar-expand-lg";
             }
         });
     });
