@@ -14,7 +14,7 @@ h1:first-of-type {
 
 h1 {
 	font-size: 70px;
-	color: #840084;
+	color: #7476E7;
 	text-align: center;
 }
 
@@ -24,7 +24,7 @@ h1 + hr:first-of-type {
 }
 
 hr {
-	border: #840084 solid 1px;
+	border: #7476E7 solid 1px;
 	opacity: 1;
 	margin: 40px 0px 40px 0px;
 }
@@ -33,7 +33,7 @@ h2 {
 	text-transform: uppercase;
 	font-family: sans-serif;
 	font-size: 54px;
-	color: #840084;
+	color: #7476E7;
 	line-height: 64px;
 	text-align: center;
 	width: 100%;
@@ -44,7 +44,7 @@ h2.text-light {
 }
 
 h3 {
-	color: #840084;
+	color: #7476E7;
 	margin: 20px 0px 30px 20px;
 }
 
@@ -55,7 +55,7 @@ h5 {
 section {
 	background-position: center;
 	background-size: cover;
-	padding: 80px 0px 0px 0px;
+	padding: 80px 0px 40px 0px;
 }
 
 img.icon {
@@ -102,7 +102,7 @@ ul.timeline > li > span .float-right {
 }
 
 .location {
-	color: #840084;
+	color: #7476E7;
 }
 
 .justify {
@@ -173,13 +173,13 @@ ul.timeline > li > span .float-right {
 
 	h1 {
 		font-size: 55px;
-		color: #840084;
+		color: #7476E7;
 		text-align: center;
 	}
 	
 	h2 {
 		font-size: 38px;
-		color: #840084;
+		color: #7476E7;
 	}
 
 	.title {
