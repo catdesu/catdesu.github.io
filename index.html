@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="description" content="Mon CV en ligne contenant mes sompétences, mon parcours, mesformations et plus encore...">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="imgs/icon/favicon.ico" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
@@ -11,9 +12,7 @@
     <link rel="stylesheet" href="css/style.css">
     <title>David Aeschlimann - Mon CV</title>
 </head>
-<body data-spy="scroll" data-target=".navbar" data-offset="60">
-    
-
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
     <section id="top">
         <div class="container h-75">
             <div class="row justify-content-center align-items-center h-100">
@@ -34,7 +33,7 @@
         </div>
     </section>
 
-    <nav class="navbar navbar-light bg-light navbar-expand-lg" id="nav">
+    <nav class="navbar navbar-dark bg-dark sticky-top">
         <div class="container-fluid">
             <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -47,77 +46,206 @@
                     <li class="nav-item"><a class="nav-link" href="#projects">Quelques projets</a></li>
                 </ul>
             </div>
-            <span class="navbar-text">
-                <div class="form-check form-switch fg-light">
-                    <label class="form-check-label" id="toggleSwitchLabel" for="toggleSwitch">Thème sombre</label>
-                    <input class="form-check-input" type="checkbox" id="toggleSwitch">
-                </div>
-            </span>
         </div>
     </nav>
 
-    <section id="career">
+    <section id="career" class="bg-light">
         <div class="container h-75">
             <h2>Mon parcours</h2>
             <div class="row justify-content-center align-items-center h-100">
-                <div class="col-lg-12">
+                <div class="col-lg-8">
+                    <hr>
                     <h3>Expériences professionnelles</h3>
                     <ul class="timeline">
                         <li>
-                            <span>Centre Orif, Pomy</span>
-                            <span class="float-end">2020 - Maintenant</span>
-                            <p>informaticien CFC</p>
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <h4>Centre Orif</h4>
+                                    <span>2020 - Maintenant</span>
+                                </div>
+                                <div class="col-lg-8 justify">
+                                    <p>
+                                        <strong>Apprenti informaticien CFC</strong><br />
+                                        <span>
+                                            L'Orif est un centre de formation spécialisé, qui permet d'intégrer ou de réintégrer des personnes dans l'économie.
+                                            J'y travaille en tant que développeur en apprentissage, je participe à l'élaboration de différents sites internet en utilisant le framework CodeIgniter.
+                                        </span><br/>
+                                        <span class="location">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                                                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                                              </svg>
+                                              Pomy, Suisse
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
                         </li>
                         <li>
-                            <span>Centre Orif, Pomy & La-Chaux-de-Fonds</span>
-                            <span class="float-end">2019 - 2020</span>
-                            <p>informaticien</p>
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <h4>Centre Orif</h4>
+                                    <span>2019 - 2020</span>
+                                </div>
+                                <div class="col-lg-8 justify">
+                                    <p>
+                                        <strong>Préformation informaticien</strong><br />
+                                        <span>
+                                            J'y ai appris les bases du TCP/IP, par la suite j'ai pu découvrir différents langages de programmation tel que PHP, C# et HTML/CSS. 
+                                            J'ai aussi pu apprendre à utiliser les bases de données, ainsi que le langage SQL. Et finalement je faisais aussi des appels d'offre et des mandats pour des clients.
+                                        </span><br/>
+                                        <span class="location">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                                                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                                              </svg>
+                                              Pomy & La-Chaux-de-Fonds, Suisse
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
                         </li>
                         <li>
-                            <span>Infoteam SA, Givisiez</span>
-                            <span class="float-end">2018</span>
-                            <p>informaticien</p>
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <h4>Infoteam SA</h4>
+                                    <span>2018</span>
+                                </div>
+                                <div class="col-lg-8 justify">
+                                    <p>
+                                        <strong>Informaticien</strong><br />
+                                        <span>
+                                            Stage durant lequel j'ai découvert de nombreux aspects de l'informatique, tel que les algorithmes, le support client, la sécurité des sites internet, et le montage de PC spécifique au domaine des barrages hydroélectriques. 
+                                        </span><br/>
+                                        <span class="location">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                                                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                                              </svg>
+                                              Givisiez, Suisse
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
                         </li>
                         <li>
-                            <span>Charles Marion SA, Domdidier</span>
-                            <span class="float-end">2017</span>
-                            <p>Automaticien</p>
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <h4>Charles Marion SA</h4>
+                                    <span>2017</span>
+                                </div>
+                                <div class="col-lg-8 justify">
+                                    <p>
+                                        <strong>Automaticien</strong><br />
+                                        <span>
+                                            J'ai participé aux montages de tableaux électriques, ce qui m'a permis de découvrir de nombreux aspects techniques lors du montage, et lors des tests de qualité du produit.
+                                        </span><br/>
+                                        <span class="location">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                                                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                                              </svg>
+                                              Domdidier, Suisse
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
                         </li>
                         <li>
-                            <span>Micarna, Courtepin</span>
-                            <span class="float-end">2017</span>
-                            <p>Opérateur sur machine automatisée</p>
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <h4>Micarna</h4>
+                                    <span>2017</span>
+                                </div>
+                                <div class="col-lg-8 justify">
+                                    <p>
+                                        <strong>Opérateur sur machines automatisées</strong><br />
+                                        <span>
+                                            Découverte de la mécanique se trouvant derrière des machines de travail en chaîne, ainsi que l'aspect sécurité et hygiène du domaine alimentaire.
+                                        </span><br/>
+                                        <span class="location">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                                                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                                              </svg>
+                                              Courtepin, Suisse
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
                         </li>
                     </ul>
-                    <h3>Formation</h3>
+                    <hr>
+                    <h3>Formations</h3>
                     <ul class="timeline">
                         <li>
-                            <span>EPSIC, Lausanne</span>
-                            <span class="float-end">2020 - Maintenant</span>
-                            <p>Informaticien (développeur d'applications)</p>
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <h4>EPSIC</h4>
+                                    <span>2020 - Maintenant</span>
+                                </div>
+                                <div class="col-lg-8 justify">
+                                    <p>
+                                        <strong>Informaticien (développeur d'applications) CFC</strong><br />
+                                        <span>
+                                            Actuellement en 2<sup>ème</sup> année, je travaille surtout avec les langages C#, Bash, Java et SQL. Nous apprenons à transformer des bases de données en suivant la normalisation des données.                                                   
+                                        </span><br/>
+                                        <span class="location">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                                                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                                              </svg>
+                                              Lausanne, Suisse
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
                         </li>
                         <li>
-                            <span>IFP, Gland</span>
-                            <span class="float-end">2016 - 2018</span>
-                            <p>Aide-comptable</p>
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <h4>IFP</h4>
+                                    <span>2016 - 2018</span>
+                                </div>
+                                <div class="col-lg-8 justify">
+                                    <p>
+                                        <strong>Aide-comptable</strong><br />
+                                        <span>
+                                            Apprentissage de la comptabilité générale, des opérations comptables, ainsi que des bouclements et rémunérations. 
+                                            Durant cette formation j'ai remarqué que le domaine de la comptabilité ne me plaisait pas, ce qui ma mené à changer de voie professionnelle. 
+                                        </span><br/>
+                                        <span class="location">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                                                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                                              </svg>
+                                              Gland, Suisse
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
                         </li>
                         <li>
-                            <span>Cycle d'orientation de la Broye, Estavayer-le-Lac</span>
-                            <span class="float-end">2009 - 2013</span>
-                            <p></p>
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <h4>C.O de la Broye</h4>
+                                    <span>2009 - 2013</span>
+                                </div>
+                                <div class="col-lg-8 justify">
+                                    <p>
+                                        <strong>Diplôme de fin de scolarité obligatoire</strong><br />
+                                        <span>
+                                            J'ai obtenu mon diplôme de fin de scolarité, j'appréciait particulièrement les maths, l'anglais, les sciences et le dessin technique.
+                                        </span><br/>
+                                        <span class="location">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                                                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                                              </svg>
+                                              Estavayer-le-Lac, Suisse
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
                         </li>
                     </ul>
                 </div>
                 <div class="text-center">
-                    <a class="btn btn-outline-primary" target="_blank" href="files/cv.pdf">Télécharger la version papier de mon CV.</a>
+                    <a class="btn btn-outline-primary mt-3 mb-3" target="_blank" href="files/cv.pdf">Télécharger la version papier de mon CV.</a>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <section id="profile">
-        <div class="container bg-secondary">
-
         </div>
     </section>
 
@@ -128,22 +256,3 @@
     </footer>
     </body>
 </html>
-
-<script>
-    document.addEventListener('DOMContentLoaded', function () 
-    {
-        let checkbox = document.querySelector('input[type="checkbox"]');
-
-        checkbox.addEventListener('change', function () 
-        {
-            if (checkbox.checked) 
-            {
-                document.getElementById("nav").className = "navbar fixed-top navbar-dark bg-dark navbar-expand-lg";
-            } 
-            else 
-            {
-                document.getElementById("nav").className = "navbar fixed-top navbar-light bg-light navbar-expand-lg";
-            }
-        });
-    });
-</script>
