@@ -88,18 +88,6 @@ ul.timeline > li > span .float-right {
 	background-size: cover;
 }
 
-#skills {
-	background-image: url('../imgs/svg/skills.svg');
-	background-attachment: fixed;
-	background-size: cover;
-}
-
-#projects {
-	background-image: url('../imgs/svg/projects.svg');
-	background-attachment: fixed;
-	background-size: cover;
-}
-
 .separator {
 	height:10px;
 	background-color: black;
@@ -111,6 +99,10 @@ ul.timeline > li > span .float-right {
 
 .justify {
 	text-align: justify;
+}
+
+.rating {
+	color: #7476E7;
 }
 
 .title {
