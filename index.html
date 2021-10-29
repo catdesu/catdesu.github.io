@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Mon CV en ligne contenant mes sompétences, mon parcours, mesformations et plus encore...">
+    <meta name="description" content="Mon CV en ligne contenant mes compétences, mon parcours, mes formations et plus encore...">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="imgs/icon/favicon.ico" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/style.css">
     <title>David Aeschlimann - Mon CV</title>
 </head>
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
     <section id="top">
         <div class="container h-75">
             <div class="row justify-content-center align-items-center h-100">
@@ -33,21 +33,29 @@
         </div>
     </section>
 
-    <nav class="navbar navbar-dark bg-dark sticky-top">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark" id="navbar">
         <div class="container-fluid">
-            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="container collapse navbar-collapse" id="navbar">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item"><a class="nav-link" href="#profile">Profil</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#skills">Compéteces & Intérêts</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#career">Mon parcours</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#projects">Quelques projets</a></li>
-                </ul>
-            </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#profile">Profil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Compétences & Intérêts</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#career">Mon parcours</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Projets</a>
+              </li>
+            </ul>
+          </div>
         </div>
-    </nav>
+      </nav>
 
     <section id="profile">
         <div class="container h-75">
@@ -56,14 +64,35 @@
                 <div class="col-lg-8">
                     <hr>
                     <div class="row">
-                        <div class="col-lg-4">
-                            <h3>À mon propos</h3>                
+                        <div class="col-lg-4 text-md-start text-center">
+                            <h3>À mon propos</h3>   
+                            <p class="justify">
+                                Je suis apprenti développeur d'applications en 2<sup>ème</sup> année, travaillant surtout sur le back-end et les bases de données.
+                                J'aime apprendre à utiliser de nouvelles technologies, ainsi que le travail en équipe.
+                            </p>             
                         </div>
-                        <div class="col-lg-4">
-                            <img src="imgs/selfPicture/default.png" alt="Ma photo" class="img-fluid rounded-circle" id="photo" style="max-height: 320px" />
+                        <div class="col-lg-4 text-md-start text-center">
+                            <img src="imgs/selfPicture/default.png" alt="Ma photo" class="img-fluid rounded-circle border border-5" id="photo" style="max-height: 320px" />
                         </div>
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 text-md-start text-center">
                             <h3>Informations</h3>
+                            <p>
+                                <strong>Nom</strong><br/>
+                                David Aeschlimann
+                            </p>
+                            <p>
+                                <strong>Date de naissance</strong><br/>
+                                1<sup>er</sup> décembre 1996
+                            </p>
+                            <p>
+                                <strong>Adresse</strong><br/>
+                                <span class="location">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                                        <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                                      </svg>
+                                      Estavayer-le-Lac, Suisse
+                                </span>
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -88,7 +117,7 @@
             <div class="row justify-content-center align-items-center h-100">
                 <div class="col-lg-8">
                     <hr>
-                    <h3>Expériences professionnelles</h3>
+                    <h3 style="margin: 20px 0px 30px 20px;">Expériences professionnelles</h3>
                     <ul class="timeline">
                         <li>
                             <div class="row">
@@ -204,7 +233,7 @@
                         </li>
                     </ul>
                     <hr>
-                    <h3>Formations</h3>
+                    <h3 style="margin: 20px 0px 30px 20px">Formations</h3>
                     <ul class="timeline">
                         <li>
                             <div class="row">
