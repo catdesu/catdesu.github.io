@@ -118,6 +118,22 @@ ul.timeline > li > span .float-right {
 	padding: 10px;
 }
 
+.btn-outline-primary {
+	border-color: #7476E7;
+	color: #7476E7;
+}
+
+.btn-outline-primary:hover {
+	border-color: #7476E7;
+	background-color: #7476E7;
+	color: #fff;
+}
+
+.btn-outline-primary:focus {
+	border-color: #7476E7;
+    box-shadow: 0 0 0 0.2rem rgba(116, 118, 231, 1);
+}
+
 .rating span {
 	  color: orange;
 }
