@@ -83,8 +83,6 @@ ul.timeline > li > span .float-right {
 #top {
 	background-color: #fff;
 	height: 100%;
-	background-image: url('../imgs/svg/presentation.svg');
-	background-attachment: fixed;
 	background-size: cover;
 }
 
@@ -141,6 +139,14 @@ ul.timeline > li > span .float-right {
 .timeline tr {
 	position: relative;
 }
+
+#career p {
+	padding-right: 20px;
+}
+
+.bottom {
+	bottom: 0;
+ }
 
 .has-top:after, .has-bottom:after {
 	content: '';
