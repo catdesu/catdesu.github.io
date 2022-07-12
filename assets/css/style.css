@@ -144,10 +144,6 @@ ul.timeline > li > span .float-right {
 	padding-right: 20px;
 }
 
-.bottom {
-	bottom: 0;
- }
-
 .has-top:after, .has-bottom:after {
 	content: '';
 	display: inline-block;
