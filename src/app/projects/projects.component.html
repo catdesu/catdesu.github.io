@@ -1,1 +1,47 @@
-<p>projects works!</p>
+<section id="projects" class="bg-light">
+    <div class="container h-75">
+        <h2>Projets</h2>
+        <div class="row justify-content-center align-items-center h-100">
+            <div class="col-lg-8">
+                <hr>
+                <h3 class="text-center text-md-start">professionnel</h3>
+                <div class="row justify-content-center justify-content-sm-start align-items-center align-items-sm-start">
+                    <div *ngFor="let project of projects" class="col-10 col-sm-4 mb-3 mb-sm-0">
+                        <div class="card text-md-start h-100">
+                            <img src="{{project.image}}" class="card-img-top" alt="Site Gestion du stock">
+                            <div class="card-body text-center">
+                                <p class="card-text"><strong>{{project.name}}</strong></p>
+                                <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" attr.data-bs-target="{{project.id}}Id">
+                                    En savoir plus
+                                </button>
+                            </div>
+                        </div>
+                        <div class="modal fade" attr.id="{{project.id}}Id" tabindex="-1" attr.aria-labelledby="{{project.id}}Label" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" attr.id="{{project.id}}Label">{{project.name}}</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body row">
+                                        <div class="col-md-7">
+                                            <img src="{{project.image}}" class="img-fluid rounded" alt="Site Gestion du stock" style="max-height: 320px;">
+                                        </div>
+                                        <div class="col-md-5 text-md-start text-center pt-3 pt-sm-0">
+                                            <p>
+                                                {{project.description}}
+                                            </p> 
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer justify-content-center">
+                                        <a rel="noreferrer" target="_blank" href="{{project.url}}">{{project.url}}</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

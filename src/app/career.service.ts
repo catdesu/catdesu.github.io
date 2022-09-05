@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Career } from './career';
-import * as exp from '../assets/data/experience.json';
-import * as edu from '../assets/data/education.json';
+import * as exp from '../assets/data/experiences.json';
+import * as edu from '../assets/data/educations.json';
 
 @Injectable({
   providedIn: 'root'

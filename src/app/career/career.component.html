@@ -42,8 +42,11 @@
                             <div class="col-lg-8 justify">
                                 <p>
                                     <strong>{{education.job}}</strong><br />
+                                    <span *ngIf="education.orientation != ''">
+                                        <strong>{{education.orientation}}</strong>
+                                    </span><br>
                                     <span>
-                                        {{education.description}}                                                   
+                                        {{education.description}}
                                     </span><br/>
                                     <span class="location">
                                         <i class="bi bi-geo-alt-fill"></i>

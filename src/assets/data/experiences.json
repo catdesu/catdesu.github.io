@@ -8,6 +8,14 @@
         "location": "Pomy, Suisse"
     },
     {
+        "title": "hemmer", 
+        "duration": "2022", 
+        "job": "Stagiaire informaticien en développement d'applications", 
+        "orientation": "", 
+        "description": "J'ai refais le site fribourg.ch en HTML et CSS à partir d'une maquette, le tout en responsive design. J'ai par la suite développé une application en PHP.", 
+        "location": "Fribourg, Suisse"
+    },
+    {
         "title": "Centre Orif", 
         "duration": "2019 - 2020", 
         "job": "Préformation informaticien", 
