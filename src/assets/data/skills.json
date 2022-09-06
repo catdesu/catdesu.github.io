@@ -1,0 +1,260 @@
+[
+    {
+        "name": "Bootstrap 5",
+        "details": "",
+        "languages": false,
+        "tools": false
+    },
+    {
+        "name": "CodeIgniter 4",
+        "details": "",
+        "languages": false,
+        "tools": false
+    },
+    {
+        "name": "Angular",
+        "details": "",
+        "languages": false,
+        "tools": false
+    },
+    {
+        "name": "Node.js",
+        "details": "",
+        "languages": false,
+        "tools": false
+    },
+    {
+        "name": "Asp.NET",
+        "details": "",
+        "languages": false,
+        "tools": false
+    },
+    {
+        "name": "Flask",
+        "details": "",
+        "languages": false,
+        "tools": false
+    },
+    {
+        "name": "JQuery",
+        "details": "",
+        "languages": false,
+        "tools": false
+    },
+    {
+        "name": "MySQL",
+        "details": "",
+        "languages": false,
+        "tools": false
+    },
+    {
+        "name": "HTML",
+        "details": "",
+        "languages": false,
+        "tools": false
+    },
+    {
+        "name": "CSS",
+        "details": "",
+        "languages": false,
+        "tools": false
+    },
+    {
+        "name": "PHP",
+        "details": "",
+        "languages": false,
+        "tools": false
+    },
+    {
+        "name": "JavaScript",
+        "details": "",
+        "languages": false,
+        "tools": false
+    },
+    {
+        "name": "TypeScript",
+        "details": "",
+        "languages": false,
+        "tools": false
+    },
+    {
+        "name": "C#",
+        "details": "",
+        "languages": false,
+        "tools": false
+    },
+    {
+        "name": "Python",
+        "details": "",
+        "languages": false,
+        "tools": false
+    },
+    {
+        "name": "Java",
+        "details": "",
+        "languages": false,
+        "tools": false
+    },
+    {
+        "name": "SQL",
+        "details": "",
+        "languages": false,
+        "tools": false
+    },
+    {
+        "name": "Bash",
+        "details": "",
+        "languages": false,
+        "tools": false
+    },
+    {
+        "name": "Batch",
+        "details": "",
+        "languages": false,
+        "tools": false
+    },
+    {
+        "name": "Français",
+        "details": "Langue maternelle",
+        "languages": true,
+        "tools": false
+    },
+    {
+        "name": "Anglais",
+        "details": "C1",
+        "languages": true,
+        "tools": false
+    },
+    {
+        "name": "Japonais",
+        "details": "A2",
+        "languages": true,
+        "tools": false
+    },
+    {
+        "name": "Allemand",
+        "details": "A1",
+        "languages": true,
+        "tools": false
+    },
+    {
+        "name": "Firefox",
+        "details": "",
+        "languages": false,
+        "tools": true
+    },
+    {
+        "name": "Google Chrome",
+        "details": "",
+        "languages": false,
+        "tools": true
+    },
+    {
+        "name": "GitHub",
+        "details": "",
+        "languages": false,
+        "tools": true
+    },
+    {
+        "name": "Windows 10",
+        "details": "",
+        "languages": false,
+        "tools": true
+    },
+    {
+        "name": "Mac OS",
+        "details": "",
+        "languages": false,
+        "tools": true
+    },
+    {
+        "name": "Linux",
+        "details": "",
+        "languages": false,
+        "tools": true
+    },
+    {
+        "name": "Android",
+        "details": "",
+        "languages": false,
+        "tools": true
+    },
+    {
+        "name": "Suite Office",
+        "details": "",
+        "languages": false,
+        "tools": true
+    },
+    {
+        "name": "XAMPP",
+        "details": "",
+        "languages": false,
+        "tools": true
+    },
+    {
+        "name": "WampServer",
+        "details": "",
+        "languages": false,
+        "tools": true
+    },
+    {
+        "name": "Visual Studio Code",
+        "details": "",
+        "languages": false,
+        "tools": true
+    },
+    {
+        "name": "WebStorm",
+        "details": "",
+        "languages": false,
+        "tools": true
+    },
+    {
+        "name": "PyCharm",
+        "details": "",
+        "languages": false,
+        "tools": true
+    },
+    {
+        "name": "Visual Studio 2022",
+        "details": "",
+        "languages": false,
+        "tools": true
+    },
+    {
+        "name": "Arduino",
+        "details": "",
+        "languages": false,
+        "tools": true
+    },
+    {
+        "name": "Draw.io",
+        "details": "",
+        "languages": false,
+        "tools": true
+    },
+    {
+        "name": "Paint.NET",
+        "details": "",
+        "languages": false,
+        "tools": true
+    },
+    {
+        "name": "FileZilla",
+        "details": "",
+        "languages": false,
+        "tools": true
+    },
+    {
+        "name": "Hyper-V",
+        "details": "",
+        "languages": false,
+        "tools": true
+    },
+    {
+        "name": "Virtual Box",
+        "details": "",
+        "languages": false,
+        "tools": true
+    }
+]

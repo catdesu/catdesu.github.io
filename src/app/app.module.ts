@@ -8,9 +8,9 @@ import { SkillsComponent } from './skills/skills.component';
 import { ProfileComponent } from './profile/profile.component';
 import { CareerComponent } from './career/career.component';
 import { FooterComponent } from './footer/footer.component';
-import { NavbarComponent } from './navbar/navbar.component';
 import { TitleComponent } from './title/title.component';
 import { ProjectsComponent } from './projects/projects.component';
+import { ScrollSpyDirective } from './scroll-spy.directive';
 
 @NgModule({
   declarations: [
@@ -20,9 +20,9 @@ import { ProjectsComponent } from './projects/projects.component';
     ProfileComponent,
     CareerComponent,
     FooterComponent,
-    NavbarComponent,
     TitleComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    ScrollSpyDirective
   ],
   imports: [
     BrowserModule,

@@ -3,7 +3,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { BaseComponent } from './base/base.component';
 
 const routes: Routes = [
-  { path: '', component: BaseComponent}
+  { path: '', redirectTo: 'title', pathMatch: 'full' },
+  { path: ':sectionId', component: BaseComponent}
 ];
 
 @NgModule({
