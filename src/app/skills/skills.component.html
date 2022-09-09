@@ -1,48 +1,34 @@
-<section id="skills" class="bg-light">
-    <div class="container h-75">
-        <h2>Aptitudes</h2>
-        <div class="row justify-content-center align-items-center h-100">
-            <div class="col-lg-8">
-                <hr>
-                <h3 class="text-center text-md-start">Compétences</h3>
-                <div class="row">
-                    <div class="col-12 col-md-6">
-                        <table class="table table-hover table-borderless">
-                            <tr>
-                                <td>
-                                    <span>Bootstrap 5</span>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                </div>
-                <hr>
-                <h3 class="text-center text-md-start">Langues</h3>
-                <div class="row">
-                    <div class="col-12 col-md-6">
-                        <table class="table table-hover table-borderless">
-                            <tr>
-                                <td>
-                                    <span>Français <small>(Langue maternelle)</small></span>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                </div>
-                <hr>
-                <h3 class="text-center text-md-start">Outils</h3>
-                <div class="row">
-                    <div class="col-12 col-sm-6">
-                        <table class="table table-hover table-borderless">
-                            <tr>
-                                <td>
-                                    <span>Google Chrome</span>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                </div>           
-            </div>
+<div class="container h-75">
+    <h2>Aptitudes</h2>
+    <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-lg-8">
+            <hr>
+            <h3 class="text-center text-md-start">Compétences</h3>
+            <table class="row table table-hover table-borderless mx-auto w-auto">
+                <tr class="col-12 col-sm-6" *ngFor="let skill of skills">
+                    <td class="text-start">
+                        <i class="bi bi-check2"></i><span>{{skill.name}} <small *ngIf="skill.details">{{skill.details}}</small></span>
+                    </td>
+                </tr>
+            </table>
+            <hr>
+            <h3 class="text-center text-md-start">Langues</h3>
+            <table class="row table table-hover table-borderless mx-auto w-auto">
+                <tr class="col-12 col-sm-6 justify-content-center" *ngFor="let language of languages">
+                    <td>
+                        <i class="bi bi-check2"></i><span>{{language.name}} <small *ngIf="language.details">{{language.details}}</small></span>
+                    </td>
+                </tr>
+            </table>
+            <hr>
+            <h3 class="text-center text-md-start">Outils</h3>
+            <table class="row table table-hover table-borderless mx-auto w-auto">
+                <tr class="col-12 col-sm-6" *ngFor="let tool of tools">
+                    <td class="text-start">
+                        <i class="bi bi-check2"></i><span>{{tool.name}} <small *ngIf="tool.details">{{tool.details}}</small></span>
+                    </td>
+                </tr>
+            </table>          
         </div>
     </div>
-</section>
+</div>

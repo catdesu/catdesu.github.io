@@ -1,66 +1,64 @@
-<section id="career">
-    <div class="container h-75">
-        <h2>Mon parcours</h2>
-        <div class="row justify-content-center align-items-center h-100 text-xs-center">
-            <div class="col-lg-8">
-                <hr>
-                <h3 class="text-center text-md-start">Expériences professionnelles</h3>
-                <ul class="timeline">
-                    <li *ngFor="let experience of experiences">
-                        <div class="row">
-                            <div class="col-lg-4">
-                                <h4>{{experience.title}}</h4>
-                                <span>{{experience.duration}}</span>
-                            </div>
-                            <div class="col-lg-8 justify">
-                                <p>
-                                    <strong>{{experience.job}}</strong><br />
-                                    <span *ngIf="experience.orientation != ''">
-                                        <strong>{{experience.orientation}}</strong>
-                                    </span><br>
-                                    <span>
-                                        {{experience.description}}
-                                    </span><br/>
-                                    <span class="location">
-                                        <i class="bi bi-geo-alt-fill"></i>
-                                        {{experience.location}}
-                                    </span>
-                                </p>
-                            </div>
+<div class="container h-75">
+    <h2>Mon parcours</h2>
+    <div class="row justify-content-center align-items-center h-100 text-xs-center">
+        <div class="col-lg-8">
+            <hr>
+            <h3 class="text-center text-md-start">Expériences professionnelles</h3>
+            <ul class="timeline">
+                <li *ngFor="let experience of experiences">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <h4>{{experience.title}}</h4>
+                            <span>{{experience.duration}}</span>
                         </div>
-                    </li>
-                </ul>
-                <hr>
-                <h3 class="text-center text-md-start" style="margin: 20px 0px 30px 20px">Formations</h3>
-                <ul class="timeline">
-                    <li *ngFor="let education of educations">
-                        <div class="row">
-                            <div class="col-lg-4">
-                                <h4>{{education.title}}</h4>
-                                <span>{{education.duration}}</span>
-                            </div>
-                            <div class="col-lg-8 justify">
-                                <p>
-                                    <strong>{{education.job}}</strong><br />
-                                    <span *ngIf="education.orientation != ''">
-                                        <strong>{{education.orientation}}</strong>
-                                    </span><br>
-                                    <span>
-                                        {{education.description}}
-                                    </span><br/>
-                                    <span class="location">
-                                        <i class="bi bi-geo-alt-fill"></i>
-                                        {{education.location}}
-                                    </span>
-                                </p>
-                            </div>
+                        <div class="col-lg-8 justify">
+                            <p>
+                                <strong>{{experience.job}}</strong><br />
+                                <span *ngIf="experience.orientation != ''">
+                                    <strong>{{experience.orientation}}</strong>
+                                </span><br>
+                                <span>
+                                    {{experience.description}}
+                                </span><br/>
+                                <span class="location">
+                                    <i class="bi bi-geo-alt-fill"></i>
+                                    {{experience.location}}
+                                </span>
+                            </p>
                         </div>
-                    </li>
-                </ul>
-            </div>
-            <div class="text-center">
-                <a class="btn btn-outline-primary mt-3 mb-3" target="_blank" href="../../assets/files/cv.pdf">Télécharger la version pdf de mon CV</a>
-            </div>
+                    </div>
+                </li>
+            </ul>
+            <hr>
+            <h3 class="text-center text-md-start" style="margin: 20px 0px 30px 20px">Formations</h3>
+            <ul class="timeline">
+                <li *ngFor="let education of educations">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <h4>{{education.title}}</h4>
+                            <span>{{education.duration}}</span>
+                        </div>
+                        <div class="col-lg-8 justify">
+                            <p>
+                                <strong>{{education.job}}</strong><br />
+                                <span *ngIf="education.orientation != ''">
+                                    <strong>{{education.orientation}}</strong>
+                                </span><br>
+                                <span>
+                                    {{education.description}}
+                                </span><br/>
+                                <span class="location">
+                                    <i class="bi bi-geo-alt-fill"></i>
+                                    {{education.location}}
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="text-center">
+            <a class="btn btn-outline-primary mt-3 mb-3" target="_blank" href="../../assets/files/cv.pdf">Télécharger la version pdf de mon CV</a>
         </div>
     </div>
-</section>
+</div>

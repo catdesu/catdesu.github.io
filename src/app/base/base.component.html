@@ -21,21 +21,21 @@
         </div>
     </div>
 </nav>
-<div id="parent" appScrollSpy [spiedTags]="['DIV']" (sectionChange)="onSectionChange($event)">
-    <div id="title">
+<div id="parent" appScrollSpy [spiedTags]="['SECTION']" (sectionChange)="onSectionChange($event)">
+    <section id="title">
         <app-title></app-title>
-    </div>
-    <div id="profile">
+    </section>
+    <section id="profile">
         <app-profile></app-profile>
-    </div>
-    <div id="skills">
+    </section>
+    <section id="skills" class="bg-light">
         <app-skills></app-skills>
-    </div>
-    <div id="career">
+    </section>
+    <section id="career">
         <app-career></app-career>
-    </div>
-    <div id="projects">
+    </section>
+    <section id="projects" class="bg-light">
         <app-projects></app-projects>
-    </div>
+    </section>
     <app-footer></app-footer>
 </div>

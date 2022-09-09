@@ -58,6 +58,10 @@ section {
 	padding: 80px 0px 40px 0px;
 }
 
+section:first-of-type {
+	padding: 0px;
+}
+
 img.icon {
 	width: 30px;
 }
