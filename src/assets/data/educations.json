@@ -4,7 +4,7 @@
         "duration": "2020 - Maintenant", 
         "job": "Informaticien (développeur d'applications) CFC", 
         "orientation": "", 
-        "description": "Actuellement en 3<sup>ème</sup> année, je travaille surtout avec les langages C#, Bash, Java et SQL. Nous apprenons à transformer des bases de données en suivant la normalisation des données.", 
+        "description": "Actuellement en 3ème année, je travaille surtout avec les langages C#, Bash, Java et SQL. Nous apprenons à transformer des bases de données en suivant la normalisation des données.", 
         "location": "Lausanne, Suisse"
     },
     {
@@ -20,7 +20,7 @@
         "duration": "2009 - 2013", 
         "job": "Diplôme de fin de scolarité obligatoire", 
         "orientation": "", 
-        "description": "J'appréciait particulièrement les maths, l'anglais, les sciences et le dessin technique.", 
+        "description": "J'appréciais particulièrement les maths, l'anglais, les sciences et le dessin technique.", 
         "location": "Estavayer-le-Lac, Suisse"
     }
 ]

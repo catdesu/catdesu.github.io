@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Router, ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { Location } from '@angular/common';
 
 @Component({
@@ -12,7 +12,7 @@ export class BaseComponent implements OnInit {
   currentSection: string = 'title';
 
   constructor(
-    private _router: Router, 
+    private _router: Router,
     private _route: ActivatedRoute, 
     private _location: Location
   ) { }
@@ -31,5 +31,9 @@ export class BaseComponent implements OnInit {
 
   scrollTo(section: string) {
     document.getElementById(section)!.scrollIntoView();
+  }
+
+  isActive(base: string): boolean {
+    return this.currentSection === base;
   }
 }
