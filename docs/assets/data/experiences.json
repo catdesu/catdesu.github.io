@@ -1,0 +1,50 @@
+[
+    {
+        "title": "Centre Orif", 
+        "duration": "2020 - Maintenant", 
+        "job": "Apprenti informaticien CFC en 2ème année", 
+        "orientation": "Orienté développement d'applications", 
+        "description": "Je participe à l'élaboration de différentes applications web en utilisant le framework PHP nommé CodeIgniter, ainsi que des bases de données sous MySQL / MariaDB.", 
+        "location": "Pomy, Suisse"
+    },
+    {
+        "title": "hemmer", 
+        "duration": "2022", 
+        "job": "Stagiaire informaticien en développement d'applications", 
+        "orientation": "", 
+        "description": "J'ai refait le site fribourg.ch en HTML et CSS à partir d'une maquette, le tout en responsive design. J'ai par la suite développé une application en PHP.", 
+        "location": "Fribourg, Suisse"
+    },
+    {
+        "title": "Centre Orif", 
+        "duration": "2019 - 2020", 
+        "job": "Préformation informaticien", 
+        "orientation": "", 
+        "description": "J'ai commencé à développer des applications en Python, j'ai ensuite fais des appels d'offres, puis des applications web en HTML, CSS et PHP utilisant des bases de données sous MySQL / MariaDB. J'ai appris les bases du TCP/IP en mettant en réseau divers appareils informatiques.", 
+        "location": "Pomy & La-Chaux-de-Fonds, Suisse"
+    },
+    {
+        "title": "Infoteam SA", 
+        "duration": "2018", 
+        "job": "Stagiaire informaticien", 
+        "orientation": "", 
+        "description": "J'ai participé à de nombreux aspects de l'informatique, tel que les algorithmes, le support client, la sécurité des applications web et le montage de PC spécifique au domaine des barrages hydroélectriques.", 
+        "location": "Givisiez, Suisse"
+    },
+    {
+        "title": "Charles Marion SA", 
+        "duration": "2017", 
+        "job": "Stagiaire automaticien", 
+        "orientation": "", 
+        "description": "J'ai participé aux montages de tableaux électriques, ce qui m'a permis de découvrir de nombreux aspects techniques lors du montage et lors des tests de qualité du produit.", 
+        "location": "Domdidier, Suisse"
+    },
+    {
+        "title": "Micarna SA", 
+        "duration": "2017", 
+        "job": "Stagiaire opérateur sur machines automatisées", 
+        "orientation": "", 
+        "description": "J'ai utilisé diverses machines automatisées dans le domaine alimentaire, tout en découvrant l'aspect mécanique de celles-ci, la sécurité, ainsi que l'hygiène nécessaire dans le domaine alimentaire.", 
+        "location": "Courtepin, Suisse"
+    }
+]
