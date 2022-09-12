@@ -1,0 +1,26 @@
+[
+    {
+        "title": "EPSIC", 
+        "duration": "2020 - Maintenant", 
+        "job": "Informaticien (développeur d'applications) CFC", 
+        "orientation": "", 
+        "description": "Actuellement en 3ème année, je travaille surtout avec les langages C#, Bash, Java et SQL. Nous apprenons à transformer des bases de données en suivant la normalisation des données.", 
+        "location": "Lausanne, Suisse"
+    },
+    {
+        "title": "IFP", 
+        "duration": "2016 - 2018", 
+        "job": "Aide-comptable", 
+        "orientation": "", 
+        "description": "Apprentissage de la comptabilité générale, des opérations comptables, ainsi que des bouclements et rémunérations. Durant cette formation j'ai remarqué que le domaine de la comptabilité ne me plaisait pas, ce qui ma mené à changer de voie professionnelle.", 
+        "location": "Gland, Suisse"
+    },
+    {
+        "title": "C.O de la Broye", 
+        "duration": "2009 - 2013", 
+        "job": "Diplôme de fin de scolarité obligatoire", 
+        "orientation": "", 
+        "description": "J'appréciais particulièrement les maths, l'anglais, les sciences et le dessin technique.", 
+        "location": "Estavayer-le-Lac, Suisse"
+    }
+]

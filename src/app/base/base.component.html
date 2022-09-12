@@ -1,0 +1,41 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="navbar">
+    <div class="container-fluid text-center">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" (click)="scrollTo('profile')" [class.active]="isActive('profile')" routerLinkActive="profile">Profil</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" (click)="scrollTo('skills')" [class.active]="isActive('skills')" routerLinkActive="skills">Aptitudes</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" (click)="scrollTo('career')" [class.active]="isActive('career')" routerLinkActive="career">Mon parcours</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" (click)="scrollTo('projects')" [class.active]="isActive('projects')" routerLinkActive="projects">Projets</a>
+            </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div id="parent" appScrollSpy [spiedTags]="['SECTION']" (sectionChange)="onSectionChange($event)">
+    <section id="title">
+        <app-title></app-title>
+    </section>
+    <section id="profile">
+        <app-profile></app-profile>
+    </section>
+    <section id="skills" class="bg-light">
+        <app-skills></app-skills>
+    </section>
+    <section id="career">
+        <app-career></app-career>
+    </section>
+    <section id="projects" class="bg-light">
+        <app-projects></app-projects>
+    </section>
+    <app-footer></app-footer>
+</div>
