@@ -7,16 +7,21 @@
             <table class="row table table-hover table-borderless mx-auto w-auto">
                 <tr class="col-12 col-sm-6" *ngFor="let skill of skills">
                     <td class="text-start">
-                        <i class="bi bi-check2"></i><span>{{skill.name}} <small *ngIf="skill.details">{{skill.details}}</small></span>
+                        <i class="bi bi-check2"></i><span>{{skill.name}} <small *ngIf="skill.details">({{skill.details}})</small></span>
                     </td>
                 </tr>
             </table>
+            <hr>
+            <h3 class="text-center text-md-start">Compétences</h3>
+            <div class="parent" *ngFor="let skill of skills">
+                <i class="bi bi-check2 text-end"></i><span class="text-start">{{skill.name}} <small *ngIf="skill.details">{{skill.details}}</small></span>
+            </div>
             <hr>
             <h3 class="text-center text-md-start">Langues</h3>
             <table class="row table table-hover table-borderless mx-auto w-auto">
                 <tr class="col-12 col-sm-6 justify-content-center" *ngFor="let language of languages">
                     <td>
-                        <i class="bi bi-check2"></i><span>{{language.name}} <small *ngIf="language.details">{{language.details}}</small></span>
+                        <i class="bi bi-check2"></i><span>{{language.name}} <small *ngIf="language.details">({{language.details}})</small></span>
                     </td>
                 </tr>
             </table>
@@ -25,7 +30,7 @@
             <table class="row table table-hover table-borderless mx-auto w-auto">
                 <tr class="col-12 col-sm-6" *ngFor="let tool of tools">
                     <td class="text-start">
-                        <i class="bi bi-check2"></i><span>{{tool.name}} <small *ngIf="tool.details">{{tool.details}}</small></span>
+                        <i class="bi bi-check2"></i><span>{{tool.name}} <small *ngIf="tool.details">({{tool.details}})</small></span>
                     </td>
                 </tr>
             </table>          

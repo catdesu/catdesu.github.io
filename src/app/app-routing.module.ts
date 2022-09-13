@@ -4,7 +4,8 @@ import { BaseComponent } from './base/base.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'title', pathMatch: 'full' },
-  { path: ':sectionId', component: BaseComponent}
+  { path: ':sectionId', component: BaseComponent},
+  { path: '**', component: BaseComponent}
 ];
 
 @NgModule({

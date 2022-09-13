@@ -29,7 +29,7 @@ export class BaseComponent implements OnInit {
     this.currentSection = sectionId;
   }
 
-  scrollTo(section: string) {
+  scrollTo(section: string): void {
     document.getElementById(section)!.scrollIntoView();
   }
 

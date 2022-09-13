@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { Project } from './project';
-import * as json from '../assets/data/projects.json';
+import { Project } from '../interfaces/project';
+import * as json from '../../assets/data/projects.json';
 
 @Injectable({
   providedIn: 'root'

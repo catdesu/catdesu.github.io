@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { Skills } from './skills';
-import * as json from '../assets/data/skills.json';
+import { Skills } from '../interfaces/skills';
+import * as json from '../../assets/data/skills.json';
 
 @Injectable({
   providedIn: 'root'
