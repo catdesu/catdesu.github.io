@@ -18,14 +18,10 @@ export class BaseComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
-    this._route.params.subscribe(params => {
-      this.currentSection = params['sectionId'];
-      this.scrollTo(this.currentSection);
-    });
+    
   }
 
   onSectionChange(sectionId: any) {
-    this._location.go(sectionId);
     this.currentSection = sectionId;
   }
 
