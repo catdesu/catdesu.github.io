@@ -198,7 +198,7 @@
         "tools": true
     },
     {
-        "name": "Visual Studio Code",
+        "name": "VS Code",
         "details": "",
         "languages": false,
         "tools": true
@@ -216,7 +216,7 @@
         "tools": true
     },
     {
-        "name": "Visual Studio 2022",
+        "name": "VS 2022",
         "details": "",
         "languages": false,
         "tools": true
