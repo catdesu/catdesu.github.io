@@ -24,6 +24,12 @@
         "tools": false
     },
     {
+        "name": "Laravel",
+        "details": "",
+        "languages": false,
+        "tools": false
+    },
+    {
         "name": "Asp.NET",
         "details": "",
         "languages": false,
@@ -144,7 +150,7 @@
         "tools": true
     },
     {
-        "name": "Google Chrome",
+        "name": "Chrome",
         "details": "",
         "languages": false,
         "tools": true
@@ -181,6 +187,12 @@
     },
     {
         "name": "Suite Office",
+        "details": "",
+        "languages": false,
+        "tools": true
+    },
+    {
+        "name": "Laragon",
         "details": "",
         "languages": false,
         "tools": true

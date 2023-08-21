@@ -5,30 +5,36 @@
             <hr>
             <h3 class="text-center text-md-start">Compétences</h3>
             <table class="row table table-hover table-borderless mx-auto w-auto">
-                <tr class="col-6 col-sm-3 p-0 text-center" *ngFor="let skill of skills">
-                    <td>
-                        <i class="bi bi-check2"></i><span>{{skill.name}} <small *ngIf="skill.details">({{skill.details}})</small></span>
-                    </td>
-                </tr>
+                <tbody class="row">
+                    <tr class="col-6 col-sm-3" *ngFor="let skill of skills">
+                        <td class="text-center">
+                            <i class="bi bi-check2 pe-2"></i><span>{{skill.name}} <small *ngIf="skill.details">({{skill.details}})</small></span>
+                        </td>
+                    </tr>
+                </tbody>
             </table>
             <hr>
             <h3 class="text-center text-md-start">Langues</h3>
             <table class="row table table-hover table-borderless mx-auto w-auto">
-                <tr class="col-12 col-sm-6" *ngFor="let language of languages">
-                    <td>
-                        <i class="bi bi-check2"></i><span>{{language.name}} <small *ngIf="language.details">({{language.details}})</small></span>
-                    </td>
-                </tr>
+                <tbody class="row">
+                    <tr class="col-12 col-sm-6" *ngFor="let language of languages">
+                        <td class="text-center">
+                            <i class="bi bi-check2 pe-2"></i><span>{{language.name}} <small *ngIf="language.details">({{language.details}})</small></span>
+                        </td>
+                    </tr>
+                </tbody>
             </table>
             <hr>
             <h3 class="text-center text-md-start">Outils</h3>
             <table class="row table table-hover table-borderless mx-auto w-auto">
-                <tr class="col-6 col-sm-3 p-0" *ngFor="let tool of tools">
-                    <td class="text-start">
-                        <i class="bi bi-check2"></i><span>{{tool.name}} <small *ngIf="tool.details">({{tool.details}})</small></span>
-                    </td>
-                </tr>
-            </table>          
+                <tbody class="row">
+                    <tr class="col-6 col-sm-3" *ngFor="let tool of tools">
+                        <td class="text-center">
+                            <i class="bi bi-check2 pe-2"></i><span>{{tool.name}} <small *ngIf="tool.details">({{tool.details}})</small></span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>       
         </div>
     </div>
 </div>

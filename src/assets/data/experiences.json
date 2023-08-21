@@ -8,6 +8,14 @@
         "location": "Pomy, Suisse"
     },
     {
+        "title": "EVA IT Solution", 
+        "duration": "2023", 
+        "job": "Stagiaire informaticien en développement d'applications", 
+        "orientation": "", 
+        "description": "Travail de recherche sur du machine learning à intégrer dans une application métier de gestion de chantier en Python Flask et Angular.", 
+        "location": "Yverdon, Suisse"
+    },
+    {
         "title": "hemmer", 
         "duration": "2022", 
         "job": "Stagiaire informaticien en développement d'applications", 
