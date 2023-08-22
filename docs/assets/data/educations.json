@@ -2,9 +2,35 @@
     {
         "title": "EPSIC", 
         "duration": "2020 - Maintenant", 
-        "job": "Informaticien (développeur d'applications) CFC", 
-        "orientation": "", 
-        "description": "Actuellement en 4ème année, je travaille surtout avec les langages TypeScript, PHP, C#, Bash et SQL, ainsi que les Frameworks Angular et Laravel.", 
+        "job": "Informaticien CFC", 
+        "orientation": "Orientation développement d'applications", 
+        "description": "Apprentissage en 4 ans, actuellement en 4ème année", 
+        "languages": [
+            {
+                "name": "Java",
+                "icon": "java.svg"
+            },
+            {
+                "name": "Python",
+                "icon": "python.svg"
+            },
+            {
+                "name": "C#",
+                "icon": "csharp.svg"
+            },
+            {
+                "name": "Angular",
+                "icon": "angular.svg"
+            },
+            {
+                "name": "Laravel",
+                "icon": "laravel.svg"
+            },
+            {
+                "name": "MySQL",
+                "icon": "mysql.svg"
+            }
+        ],
         "location": "Lausanne, Suisse"
     },
     {

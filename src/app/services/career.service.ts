@@ -23,6 +23,7 @@ export class CareerService {
         "job": car.job, 
         "orientation": car.orientation, 
         "description": car.description, 
+        "languages": car.languages, 
         "location": car.location
       });
     }
@@ -39,7 +40,8 @@ export class CareerService {
         "duration": car.duration, 
         "job": car.job, 
         "orientation": car.orientation, 
-        "description": car.description, 
+        "description": car.description,
+        "languages": car.languages, 
         "location": car.location
       });
     }

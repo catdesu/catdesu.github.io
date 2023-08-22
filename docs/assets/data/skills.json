@@ -162,7 +162,7 @@
         "tools": true
     },
     {
-        "name": "Windows 10",
+        "name": "Windows",
         "details": "",
         "languages": false,
         "tools": true
@@ -199,12 +199,6 @@
     },
     {
         "name": "XAMPP",
-        "details": "",
-        "languages": false,
-        "tools": true
-    },
-    {
-        "name": "WampServer",
         "details": "",
         "languages": false,
         "tools": true

@@ -20,5 +20,4 @@ export class CareerComponent implements OnInit {
     this.experiences = this._careerService.getExperiences();
     this.educations = this._careerService.getEducations();
   }
-
 }

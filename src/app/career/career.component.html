@@ -12,19 +12,26 @@
                             <span>{{experience.duration}}</span>
                         </div>
                         <div class="col-lg-8 justify">
-                            <p>
-                                <strong>{{experience.job}}</strong><br />
-                                <span *ngIf="experience.orientation != ''">
-                                    <strong>{{experience.orientation}}</strong>
-                                </span><br>
-                                <span>
-                                    {{experience.description}}
-                                </span><br/>
-                                <span class="location">
-                                    <i class="bi bi-geo-alt-fill"></i>
-                                    {{experience.location}}
-                                </span>
-                            </p>
+                            <strong>{{experience.job}}</strong><br />
+                            <span *ngIf="experience.orientation != ''">
+                                <strong>{{experience.orientation}}</strong><br>
+                            </span>
+                            <span>
+                                {{experience.description}}
+                            </span><br/>
+                            <div *ngIf="experience.languages && experience.languages.length > 0">
+                                <img *ngFor="let language of experience.languages"
+                                    class="me-1"
+                                    width="24px"
+                                    height="24px"
+                                    src="../assets/images/languages/{{language.icon}}" 
+                                    alt="{{language.name}}"
+                                    title="{{language.name}}">
+                            </div>
+                            <span class="location">
+                                <i class="bi bi-geo-alt-fill"></i>
+                                {{experience.location}}
+                            </span>
                         </div>
                     </div>
                 </li>
@@ -39,19 +46,26 @@
                             <span>{{education.duration}}</span>
                         </div>
                         <div class="col-lg-8 justify">
-                            <p>
-                                <strong>{{education.job}}</strong><br />
-                                <span *ngIf="education.orientation != ''">
-                                    <strong>{{education.orientation}}</strong>
-                                </span><br>
-                                <span>
-                                    {{education.description}}
-                                </span><br/>
-                                <span class="location">
-                                    <i class="bi bi-geo-alt-fill"></i>
-                                    {{education.location}}
-                                </span>
-                            </p>
+                            <strong>{{education.job}}</strong><br />
+                            <span *ngIf="education.orientation != ''">
+                                <strong>{{education.orientation}}</strong><br>
+                            </span>
+                            <span>
+                                {{education.description}}
+                            </span><br/>
+                            <div *ngIf="education.languages && education.languages.length > 0">
+                                <img *ngFor="let language of education.languages"
+                                    class="me-1"
+                                    width="24px"
+                                    height="24px"
+                                    src="../assets/images/languages/{{language.icon}}" 
+                                    alt="{{language.name}}"
+                                    title="{{language.name}}">
+                            </div>
+                            <span class="location">
+                                <i class="bi bi-geo-alt-fill"></i>
+                                {{education.location}}
+                            </span>
                         </div>
                     </div>
                 </li>

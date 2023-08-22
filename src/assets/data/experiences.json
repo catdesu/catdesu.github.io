@@ -2,25 +2,67 @@
     {
         "title": "Centre Orif", 
         "duration": "2020 - Maintenant", 
-        "job": "Apprenti informaticien CFC en 2ème année", 
-        "orientation": "Orienté développement d'applications", 
-        "description": "Je participe à l'élaboration de différentes applications web en utilisant le framework PHP nommé CodeIgniter, ainsi que des bases de données sous MySQL / MariaDB.", 
+        "job": "Apprenti informaticien CFC", 
+        "orientation": "Orientation développement d'applications", 
+        "description": "Je participe à l'élaboration de différentes applications web, ainsi que leurs bases de données.", 
+        "languages": [
+            {
+                "name": "PHP",
+                "icon": "php.svg"
+            },
+            {
+                "name": "CodeIgniter 4",
+                "icon": "codeigniter.svg"
+            },
+            {
+                "name": "Bootstrap 5",
+                "icon": "bootstrap.svg"
+            },
+            {
+                "name": "MySQL",
+                "icon": "mysql.svg"
+            }
+        ],
         "location": "Pomy, Suisse"
     },
     {
         "title": "EVA IT Solution", 
         "duration": "2023", 
-        "job": "Stagiaire informaticien en développement d'applications", 
-        "orientation": "", 
-        "description": "Travail de recherche sur du machine learning à intégrer dans une application métier de gestion de chantier en Python Flask et Angular.", 
+        "job": "Stagiaire informaticien", 
+        "orientation": "Orientation développement d'applications", 
+        "description": "Travail de recherche sur du machine learning à intégrer dans une application métier de gestion de chantier.", 
+        "languages": [
+            {
+                "name": "Python",
+                "icon": "python.svg"
+            },
+            {
+                "name": "Angular",
+                "icon": "angular.svg"
+            },
+            {
+                "name": "MongoDB",
+                "icon": "mongodb.svg"
+            }
+        ],
         "location": "Yverdon, Suisse"
     },
     {
         "title": "hemmer", 
         "duration": "2022", 
-        "job": "Stagiaire informaticien en développement d'applications", 
-        "orientation": "", 
+        "job": "Stagiaire informaticien", 
+        "orientation": "Orientation développement d'applications",
         "description": "J'ai refait le site fribourg.ch en HTML et CSS à partir d'une maquette, le tout en responsive design. J'ai par la suite développé une application en PHP.", 
+        "languages": [
+            {
+                "name": "PHP",
+                "icon": "php.svg"
+            },
+            {
+                "name": "Bootstrap 5",
+                "icon": "bootstrap.svg"
+            }
+        ],
         "location": "Fribourg, Suisse"
     },
     {
@@ -28,7 +70,29 @@
         "duration": "2019 - 2020", 
         "job": "Préformation informaticien", 
         "orientation": "", 
-        "description": "J'ai commencé à développer des applications en Python, j'ai ensuite fais des appels d'offres, puis des applications web en HTML, CSS et PHP utilisant des bases de données sous MySQL / MariaDB. J'ai appris les bases du TCP/IP en mettant en réseau divers appareils informatiques.", 
+        "description": "J'ai fais des appels d'offres, puis des applications web utilisant des bases de données. J'ai appris les bases du TCP/IP en mettant en réseau divers appareils informatiques.", 
+        "languages": [
+            {
+                "name": "Python",
+                "icon": "python.svg"
+            },
+            {
+                "name": "C#",
+                "icon": "csharp.svg"
+            },
+            {
+                "name": "PHP",
+                "icon": "php.svg"
+            },
+            {
+                "name": "Bootstrap 5",
+                "icon": "bootstrap.svg"
+            },
+            {
+                "name": "MySQL",
+                "icon": "mysql.svg"
+            }
+        ],
         "location": "Pomy & La-Chaux-de-Fonds, Suisse"
     },
     {
