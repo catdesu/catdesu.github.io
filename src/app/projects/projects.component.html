@@ -1,4 +1,4 @@
-<div class="container h-75">
+<div class="container h-75">btn-custom-outline-primary
     <h2>Projets</h2>
     <div class="row justify-content-center align-items-center h-100">
         <div class="col-lg-8">
@@ -10,7 +10,7 @@
                         <img src="{{project.image}}" class="card-img-top" alt="Site Gestion du stock">
                         <div class="card-body text-center">
                             <p class="card-text"><strong>{{project.name}}</strong></p>
-                            <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" attr.data-bs-target="#{{project.id}}Id">
+                            <button type="button" class="btn btn-custom-outline-primary" data-bs-toggle="modal" attr.data-bs-target="#{{project.id}}Id">
                                 En savoir plus
                             </button>
                         </div>
@@ -33,7 +33,10 @@
                                     </div>
                                 </div>
                                 <div class="modal-footer justify-content-center">
-                                    <a rel="noreferrer" target="_blank" href="{{project.url}}">{{project.url}}</a>
+                                    <a class="btn btn-custom-outline-primary" rel="noreferrer" target="_blank" href="{{project.url}}">
+                                        Vers&nbsp;{{project.name}}&nbsp;
+                                        <i class="bi bi-arrow-right-circle"></i>
+                                    </a>
                                 </div>
                             </div>
                         </div>
