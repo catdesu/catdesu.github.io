@@ -7,6 +7,18 @@
         "description": "Je participe à l'élaboration de différentes applications web, ainsi que leurs bases de données.", 
         "languages": [
             {
+                "name": "HTML",
+                "icon": "html.png"
+            },
+            {
+                "name": "CSS",
+                "icon": "css.png"
+            },
+            {
+                "name": "Bootstrap 5",
+                "icon": "bootstrap.png"
+            },
+            {
                 "name": "PHP",
                 "icon": "php.svg"
             },
@@ -15,12 +27,36 @@
                 "icon": "codeigniter.svg"
             },
             {
-                "name": "Bootstrap 5",
-                "icon": "bootstrap.svg"
+                "name": "JavaScript",
+                "icon": "javascript.png"
+            },
+            {
+                "name": "JQuery",
+                "icon": "jquery.svg"
             },
             {
                 "name": "MySQL",
-                "icon": "mysql.svg"
+                "icon": "mysql.png"
+            },
+            {
+                "name": "MariaDB",
+                "icon": "mariadb.png"
+            },
+            {
+                "name": "TypeScript",
+                "icon": "typescript.svg"
+            },
+            {
+                "name": "NestJS",
+                "icon": "nestjs.svg"
+            },
+            {
+                "name": "Git",
+                "icon": "git.png"
+            },
+            {
+                "name": "GitHub",
+                "icon": "github.png"
             }
         ],
         "location": "Pomy, Suisse"
@@ -33,8 +69,24 @@
         "description": "Travail de recherche sur du machine learning à intégrer dans une application métier de gestion de chantier.", 
         "languages": [
             {
+                "name": "HTML",
+                "icon": "html.png"
+            },
+            {
+                "name": "CSS",
+                "icon": "css.png"
+            },
+            {
                 "name": "Python",
                 "icon": "python.svg"
+            },
+            {
+                "name": "Flask",
+                "icon": "flask.png"
+            },
+            {
+                "name": "TypeScript",
+                "icon": "typescript.svg"
             },
             {
                 "name": "Angular",
@@ -43,6 +95,14 @@
             {
                 "name": "MongoDB",
                 "icon": "mongodb.svg"
+            },
+            {
+                "name": "Git",
+                "icon": "git.png"
+            },
+            {
+                "name": "GitLab",
+                "icon": "gitlab.png"
             }
         ],
         "location": "Yverdon, Suisse"
@@ -55,12 +115,20 @@
         "description": "J'ai refait le site fribourg.ch en HTML et CSS à partir d'une maquette, le tout en responsive design. J'ai par la suite développé une application en PHP.", 
         "languages": [
             {
-                "name": "PHP",
-                "icon": "php.svg"
+                "name": "HTML",
+                "icon": "html.png"
+            },
+            {
+                "name": "CSS",
+                "icon": "css.png"
             },
             {
                 "name": "Bootstrap 5",
-                "icon": "bootstrap.svg"
+                "icon": "bootstrap.png"
+            },
+            {
+                "name": "PHP",
+                "icon": "php.svg"
             }
         ],
         "location": "Fribourg, Suisse"
@@ -73,24 +141,36 @@
         "description": "J'ai fais des appels d'offres, puis des applications web utilisant des bases de données. J'ai appris les bases du TCP/IP en mettant en réseau divers appareils informatiques.", 
         "languages": [
             {
+                "name": "HTML",
+                "icon": "html.png"
+            },
+            {
+                "name": "CSS",
+                "icon": "css.png"
+            },
+            {
+                "name": "Bootstrap 5",
+                "icon": "bootstrap.png"
+            },
+            {
                 "name": "Python",
                 "icon": "python.svg"
             },
             {
                 "name": "C#",
-                "icon": "csharp.svg"
+                "icon": "csharp.png"
             },
             {
                 "name": "PHP",
                 "icon": "php.svg"
             },
             {
-                "name": "Bootstrap 5",
-                "icon": "bootstrap.svg"
+                "name": "MySQL",
+                "icon": "mysql.png"
             },
             {
-                "name": "MySQL",
-                "icon": "mysql.svg"
+                "name": "MariaDB",
+                "icon": "mariadb.png"
             }
         ],
         "location": "Pomy & La-Chaux-de-Fonds, Suisse"

@@ -7,20 +7,48 @@
         "description": "Apprentissage en 4 ans, actuellement en 4ème année", 
         "languages": [
             {
+                "name": "HTML",
+                "icon": "html.png"
+            },
+            {
+                "name": "CSS",
+                "icon": "css.png"
+            },
+            {
+                "name": "Bootstrap 5",
+                "icon": "bootstrap.png"
+            },
+            {
                 "name": "Java",
-                "icon": "java.svg"
+                "icon": "java.png"
             },
             {
                 "name": "Python",
                 "icon": "python.svg"
             },
             {
+                "name": "Flask",
+                "icon": "flask.png"
+            },
+            {
                 "name": "C#",
-                "icon": "csharp.svg"
+                "icon": "csharp.png"
+            },
+            {
+                "name": "ASP.NET",
+                "icon": "dotnet.png"
+            },
+            {
+                "name": "TypeScript",
+                "icon": "typescript.svg"
             },
             {
                 "name": "Angular",
                 "icon": "angular.svg"
+            },
+            {
+                "name": "PHP",
+                "icon": "php.svg"
             },
             {
                 "name": "Laravel",
@@ -28,7 +56,23 @@
             },
             {
                 "name": "MySQL",
-                "icon": "mysql.svg"
+                "icon": "mysql.png"
+            },
+            {
+                "name": "MariaDB",
+                "icon": "mariadb.png"
+            },
+            {
+                "name": "Git",
+                "icon": "git.png"
+            },
+            {
+                "name": "GitLab",
+                "icon": "gitlab.png"
+            },
+            {
+                "name": "GitHub",
+                "icon": "github.png"
             }
         ],
         "location": "Lausanne, Suisse"
