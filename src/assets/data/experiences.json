@@ -35,20 +35,20 @@
                 "icon": "jquery.svg"
             },
             {
-                "name": "MySQL",
-                "icon": "mysql.png"
-            },
-            {
-                "name": "MariaDB",
-                "icon": "mariadb.png"
-            },
-            {
                 "name": "TypeScript",
                 "icon": "typescript.svg"
             },
             {
                 "name": "NestJS",
                 "icon": "nestjs.svg"
+            },
+            {
+                "name": "MySQL",
+                "icon": "mysql.png"
+            },
+            {
+                "name": "MariaDB",
+                "icon": "mariadb.png"
             },
             {
                 "name": "Git",
