@@ -5,7 +5,7 @@
         "image": "../assets/images/projects/OrifStock.png",
         "url": "https://stock.sectioninformatique.ch",
         "pro": true,
-        "description": "Site web servant à gérer l'inventaire du stock au sein de l'Orif de Pomy."
+        "description": "Cette application web est conçue pour faciliter la gestion de l'inventaire du stock au sein de l'Orif de Pomy"
     },
     {
         "id": "quards",
@@ -13,6 +13,6 @@
         "image": "../assets/images/projects/QuardsApp.png",
         "url": "https://quardsapp.weedoo.swiss/public",
         "pro": true,
-        "description": "Application web et mobile permettant de s'abonner afin d'avoir accès à des cartes de visite sous forme de QR code."
+        "description": "Une application web et mobile qui offre un service d'abonnement permettant aux utilisateurs d'accéder à des cartes de visite sous forme de QR code"
     }
 ]

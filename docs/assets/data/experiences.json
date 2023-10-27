@@ -1,10 +1,10 @@
 [
     {
-        "title": "Centre Orif", 
+        "title": "Orif", 
         "duration": "2020 - Maintenant", 
         "job": "Apprenti informaticien CFC", 
         "orientation": "Orientation développement d'applications", 
-        "description": "Je participe à l'élaboration de différentes applications web, ainsi que leurs bases de données.", 
+        "description": "Développement d'applications web, notamment une application de gestion de stock et une application de cartes de visite en format QR code.", 
         "languages": [
             {
                 "name": "HTML",
@@ -66,7 +66,7 @@
         "duration": "2023", 
         "job": "Stagiaire informaticien", 
         "orientation": "Orientation développement d'applications", 
-        "description": "Travail de recherche sur du machine learning à intégrer dans une application métier de gestion de chantier.", 
+        "description": "Intégration de machine learning dans une application métier de gestion de chantier.", 
         "languages": [
             {
                 "name": "HTML",
@@ -112,7 +112,7 @@
         "duration": "2022", 
         "job": "Stagiaire informaticien", 
         "orientation": "Orientation développement d'applications",
-        "description": "J'ai refait le site fribourg.ch en HTML et CSS à partir d'une maquette, le tout en responsive design. J'ai par la suite développé une application en PHP.", 
+        "description": "Réaliser la réfection du site fribourg.ch en responsive design avec HTML et CSS à partir d'une maquette.", 
         "languages": [
             {
                 "name": "HTML",
@@ -134,11 +134,11 @@
         "location": "Fribourg, Suisse"
     },
     {
-        "title": "Centre Orif", 
+        "title": "Orif", 
         "duration": "2019 - 2020", 
         "job": "Préformation informaticien", 
         "orientation": "", 
-        "description": "J'ai fais des appels d'offres, puis des applications web utilisant des bases de données. J'ai appris les bases du TCP/IP en mettant en réseau divers appareils informatiques.", 
+        "description": "Gestion d'appels d'offres, suivi de la création d'applications web utilisant des bases de données. En parallèle, j'ai acquis des connaissances de base en matière de TCP/IP en mettant en réseau divers appareils informatiques.", 
         "languages": [
             {
                 "name": "HTML",
@@ -180,7 +180,7 @@
         "duration": "2018", 
         "job": "Stagiaire informaticien", 
         "orientation": "", 
-        "description": "J'ai participé à de nombreux aspects de l'informatique, tel que les algorithmes, le support client, la sécurité des applications web et le montage de PC spécifique au domaine des barrages hydroélectriques.", 
+        "description": "Découverte de divers domaines de l'informatique, notamment les algorithmes, le support client, la sécurité des applications web, et l'assemblage de PC spécialisé dans le contexte des barrages hydroélectriques.", 
         "location": "Givisiez, Suisse"
     },
     {
@@ -188,7 +188,7 @@
         "duration": "2017", 
         "job": "Stagiaire automaticien", 
         "orientation": "", 
-        "description": "J'ai participé aux montages de tableaux électriques, ce qui m'a permis de découvrir de nombreux aspects techniques lors du montage et lors des tests de qualité du produit.", 
+        "description": "Assemblage de tableaux électriques et fabrication des pièces.", 
         "location": "Domdidier, Suisse"
     },
     {
@@ -196,7 +196,7 @@
         "duration": "2017", 
         "job": "Stagiaire opérateur sur machines automatisées", 
         "orientation": "", 
-        "description": "J'ai utilisé diverses machines automatisées dans le domaine alimentaire, tout en découvrant l'aspect mécanique de celles-ci, la sécurité, ainsi que l'hygiène nécessaire dans le domaine alimentaire.", 
+        "description": "Utilisation de machines automatisées dans le secteur alimentaire, tout en acquérant des connaissances sur leur aspect mécanique, la sécurité et les normes d'hygiène essentielles dans ce domaine.", 
         "location": "Courtepin, Suisse"
     }
 ]
