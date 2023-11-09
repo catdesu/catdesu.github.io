@@ -112,7 +112,7 @@
         "duration": "2022", 
         "job": "Stagiaire informaticien", 
         "orientation": "Orientation développement d'applications",
-        "description": "Réaliser la réfection du site fribourg.ch en responsive design avec HTML et CSS à partir d'une maquette.", 
+        "description": "Réfection du site fribourg.ch en responsive design à partir d'une maquette.", 
         "languages": [
             {
                 "name": "HTML",
