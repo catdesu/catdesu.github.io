@@ -1,6 +1,6 @@
 [
     {
-        "id": "orif",
+        "id": "stock",
         "name": "Orif, gestion du stock",
         "image": "../assets/images/projects/OrifStock.png",
         "url": "https://stock.sectioninformatique.ch",
@@ -14,5 +14,13 @@
         "url": "https://quardsapp.weedoo.swiss/public",
         "pro": true,
         "description": "Une application web et mobile qui offre un service d'abonnement permettant aux utilisateurs d'accéder à des cartes de visite sous forme de QR code"
+    },
+    {
+        "id": "timbreuse",
+        "name": "Orif, timbreuse",
+        "image": "../assets/images/projects/OrifTimbreuse.png",
+        "url": "https://timbreuse.sectioninformatique.ch",
+        "pro": true,
+        "description": "Application web servant à gérer les timbrages et plannings horaires au sein de l'Orif de Pomy"
     }
 ]
