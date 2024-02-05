@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { CareerService } from '../services/career.service';
-import { Career } from '../interfaces/career';
+import { CareerService } from '../../services/career.service';
+import { Career } from '../../interfaces/career';
 
 @Component({
   selector: 'app-career',

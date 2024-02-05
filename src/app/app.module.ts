@@ -3,14 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { BaseComponent } from './base/base.component';
-import { SkillsComponent } from './skills/skills.component';
-import { ProfileComponent } from './profile/profile.component';
-import { CareerComponent } from './career/career.component';
-import { FooterComponent } from './footer/footer.component';
-import { TitleComponent } from './title/title.component';
-import { ProjectsComponent } from './projects/projects.component';
-import { ScrollSpyDirective } from './scroll-spy.directive';
+import { BaseComponent } from './components/base/base.component';
+import { SkillsComponent } from './components/skills/skills.component';
+import { ProfileComponent } from './components/profile/profile.component';
+import { CareerComponent } from './components/career/career.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { TitleComponent } from './components/title/title.component';
+import { ProjectsComponent } from './components/projects/projects.component';
+import { ScrollSpyDirective } from './directives/scroll-spy.directive';
 
 @NgModule({
   declarations: [

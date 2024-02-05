@@ -11,11 +11,7 @@ export class BaseComponent implements OnInit {
   
   currentSection: string = 'title';
 
-  constructor(
-    private _router: Router,
-    private _route: ActivatedRoute, 
-    private _location: Location
-  ) { }
+  constructor() { }
 
   ngOnInit(): void {
     
