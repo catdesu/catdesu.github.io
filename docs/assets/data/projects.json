@@ -22,5 +22,13 @@
         "url": "https://timbreuse.sectioninformatique.ch",
         "pro": true,
         "description": "Application web servant à gérer les timbrages et plannings horaires au sein de l'Orif de Pomy"
+    },
+    {
+        "id": "ichi",
+        "name": "Ichi",
+        "image": "../assets/images/projects/ichiGame.png",
+        "url": "",
+        "pro": false,
+        "description": "Mon projet 'Ichi' est un clone du jeu UNO développé en utilisant les frameworks NestJS pour le back-end et Angular pour le front-end, avec une communication entre les deux via WebSockets. Ce projet m'a été particulièrement bénéfique car il m'a permis d'approfondir mes compétences en développement web tout en me familiarisant avec le WebSocket."
     }
 ]
