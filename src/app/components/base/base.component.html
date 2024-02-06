@@ -3,29 +3,7 @@
         <app-title></app-title>
     </section>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top" id="navbar">
-        <div class="container-fluid text-center">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav flex-column w-100">
-                    <li class="nav-item w-100">
-                        <a class="nav-link" (click)="scrollTo('profile')" [class.active]="isActive('profile')">Profil</a>
-                    </li>
-                    <li class="nav-item w-100">
-                        <a class="nav-link" (click)="scrollTo('skills')" [class.active]="isActive('skills')">Aptitudes</a>
-                    </li>
-                    <li class="nav-item w-100">
-                        <a class="nav-link" (click)="scrollTo('career')" [class.active]="isActive('career')">Mon parcours</a>
-                    </li>
-                    <li class="nav-item w-100">
-                        <a class="nav-link" (click)="scrollTo('projects')" [class.active]="isActive('projects')">Projets</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    <app-navigation-menu></app-navigation-menu>
 
     <section id="profile">
         <app-profile></app-profile>

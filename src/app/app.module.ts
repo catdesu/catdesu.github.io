@@ -11,6 +11,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { TitleComponent } from './components/title/title.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { ScrollSpyDirective } from './directives/scroll-spy.directive';
+import { NavigationMenuComponent } from './components/navigation-menu/navigation-menu.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ScrollSpyDirective } from './directives/scroll-spy.directive';
     FooterComponent,
     TitleComponent,
     ProjectsComponent,
-    ScrollSpyDirective
+    ScrollSpyDirective,
+    NavigationMenuComponent
   ],
   imports: [
     BrowserModule,

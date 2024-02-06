@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ScrollService } from 'src/app/services/scroll.service';
 
 @Component({
   selector: 'app-base',
@@ -6,24 +7,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./base.component.scss']
 })
 export class BaseComponent implements OnInit {
-  
-  currentSection: string = 'title';
+  constructor(private scrollService: ScrollService) { }
 
-  constructor() { }
-
-  ngOnInit(): void {
-    
-  }
+  ngOnInit(): void {}
 
   onSectionChange(sectionId: any) {
-    this.currentSection = sectionId;
-  }
-
-  scrollTo(section: string): void {
-    document.getElementById(section)!.scrollIntoView();
-  }
-
-  isActive(base: string): boolean {
-    return this.currentSection === base;
+    this.scrollService.currentSection = sectionId;
   }
 }
