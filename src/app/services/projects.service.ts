@@ -1,25 +1,18 @@
 import { Injectable } from '@angular/core';
 import { Project } from '../interfaces/project';
-import * as json from '../../assets/data/projects.json';
+import projects from '../../assets/data/projects.json';
 
 @Injectable({
   providedIn: 'root'
 })
 export class ProjectsService {
-
-  private projects = (json as any).default;
-
   constructor() { }
 
-  public getPro() : Array<Project> {
-    let projects = [];
-
-    for (let project of this.projects) {
-      if (project.pro) {
-        projects.push(project);
-      }
-    }
-
-    return projects;
+  getProProjects(): Project[] {
+    return projects.filter(project => project.pro === true);
+  }
+  
+  getPersonalProjects(): Project[] {
+    return projects.filter(project => project.pro !== true);
   }
 }

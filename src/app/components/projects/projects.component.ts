@@ -8,15 +8,14 @@ import { Project } from '../../interfaces/project';
   styleUrls: ['./projects.component.scss']
 })
 export class ProjectsComponent implements OnInit {
-
-  public projects: Array<Project> = [];
+  public projects: Map<string, Project[]> = new Map<string, Project[]>();
 
   constructor(
-    private _projectService: ProjectsService
+    private projectService: ProjectsService
   ) { }
 
   ngOnInit(): void {
-    this.projects = this._projectService.getPro();
+    this.projects.set('Professionnel', this.projectService.getProProjects());
+    this.projects.set('Personnel', this.projectService.getPersonalProjects());
   }
-
 }
