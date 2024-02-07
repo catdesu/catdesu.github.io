@@ -20,13 +20,7 @@
                                 {{experience.description}}
                             </span><br/>
                             <div *ngIf="experience.languages && experience.languages.length > 0">
-                                <img *ngFor="let language of experience.languages"
-                                    class="me-2 mb-1 mt-1"
-                                    width="28px"
-                                    height="28px"
-                                    src="../assets/images/languages/{{language.icon}}" 
-                                    alt="{{language.name}}"
-                                    title="{{language.name}}">
+                                <app-dev-tools-icons [devTools]="experience.languages"></app-dev-tools-icons>
                             </div>
                             <span class="location">
                                 <i class="bi bi-geo-alt-fill"></i>
@@ -54,13 +48,7 @@
                                 {{education.description}}
                             </span><br/>
                             <div *ngIf="education.languages && education.languages.length > 0">
-                                <img *ngFor="let language of education.languages"
-                                    class="me-2 mb-1 mt-1"
-                                    width="28px"
-                                    height="28px"
-                                    src="../assets/images/languages/{{language.icon}}" 
-                                    alt="{{language.name}}"
-                                    title="{{language.name}}">
+                                <app-dev-tools-icons [devTools]="education.languages"></app-dev-tools-icons>
                             </div>
                             <span class="location">
                                 <i class="bi bi-geo-alt-fill"></i>

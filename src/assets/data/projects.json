@@ -5,7 +5,7 @@
         "image": "../assets/images/projects/OrifStock.png",
         "url": "https://stock.sectioninformatique.ch",
         "pro": true,
-        "description": "Cette application web est conçue pour faciliter la gestion de l'inventaire du stock au sein de l'Orif de Pomy"
+        "description": "Application web est conçue pour faciliter la gestion de l'inventaire du stock au sein de l'Orif de Pomy"
     },
     {
         "id": "quards",
@@ -13,7 +13,7 @@
         "image": "../assets/images/projects/QuardsApp.png",
         "url": "https://quardsapp.weedoo.swiss/public",
         "pro": true,
-        "description": "Une application web et mobile qui offre un service d'abonnement permettant aux utilisateurs d'accéder à des cartes de visite sous forme de QR code"
+        "description": "Application web et mobile qui offre un service d'abonnement permettant aux utilisateurs d'accéder à des cartes de visite sous forme de QR code"
     },
     {
         "id": "timbreuse",
@@ -36,6 +36,6 @@
         "name": "Ichi",
         "image": "../assets/images/projects/ichiGame.png",
         "pro": false,
-        "description": "Mon projet 'Ichi' est un clone du jeu UNO développé en utilisant les frameworks NestJS pour le back-end et Angular pour le front-end, avec une communication entre les deux via WebSockets. Ce projet m'a été particulièrement bénéfique car il m'a permis d'approfondir mes compétences en développement web tout en me familiarisant avec le WebSocket."
+        "description": "Un clone du jeu UNO utilisant le Websockets."
     }
 ]

@@ -1,3 +1,5 @@
+import { Language } from "./language";
+
 export interface Project {
     id: string,
     name: string,
@@ -5,5 +7,6 @@ export interface Project {
     url?: string,
     repository?: string,
     pro: boolean,
-    description: string
+    description: string,
+    devTools?: Language[],
 }

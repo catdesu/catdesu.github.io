@@ -12,6 +12,7 @@ import { TitleComponent } from './components/title/title.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { ScrollSpyDirective } from './directives/scroll-spy.directive';
 import { NavigationMenuComponent } from './components/navigation-menu/navigation-menu.component';
+import { DevToolsIconsComponent } from './components/dev-tools-icons/dev-tools-icons.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { NavigationMenuComponent } from './components/navigation-menu/navigation
     TitleComponent,
     ProjectsComponent,
     ScrollSpyDirective,
-    NavigationMenuComponent
+    NavigationMenuComponent,
+    DevToolsIconsComponent
   ],
   imports: [
     BrowserModule,
