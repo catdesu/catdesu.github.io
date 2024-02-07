@@ -31,10 +31,14 @@
                                             <p>{{project.description}}</p> 
                                         </div>
                                     </div>
-                                    <div class="modal-footer justify-content-center">
-                                        <a class="btn btn-custom-outline-primary" rel="noreferrer" target="_blank" href="{{project.url}}">
+                                    <div *ngIf="project.url || project.repository" class="modal-footer justify-content-center">
+                                        <a *ngIf="project.url" class="btn btn-custom-outline-primary" rel="noreferrer" target="_blank" href="{{project.url}}">
                                             Vers&nbsp;{{project.name}}&nbsp;
-                                            <i class="bi bi-arrow-right-circle"></i>
+                                            <i class="bi bi-box-arrow-up-right"></i>
+                                        </a>
+                                        <a *ngIf="project.repository" class="btn btn-custom-outline-primary" rel="noreferrer" target="_blank" href="{{project.repository}}">
+                                            Repository GitHub&nbsp;
+                                            <i class="bi bi-box-arrow-up-right"></i>
                                         </a>
                                     </div>
                                 </div>
