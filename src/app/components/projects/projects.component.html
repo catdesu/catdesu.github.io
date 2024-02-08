@@ -13,8 +13,11 @@
                         <div class="col-md-7 px-3">
                             <div class="p-3 h-100">
                                 <h4 class="card-title">{{project.name}}</h4>
-                                <p class="card-text">{{ project.description }}</p>
-                                <div *ngIf="project.url || project.repository">
+                                <p class="mb-0">{{ project.description }}</p>
+                                <div *ngIf="project.devTools" class="mt-3">
+                                    <app-dev-tools-icons [devTools]="project.devTools"></app-dev-tools-icons>
+                                </div>
+                                <div class="mt-3" *ngIf="project.url || project.repository">
                                     <a *ngIf="project.url" [href]="project.url" class="btn btn-custom-outline-primary" rel="noreferrer" target="_blank">
                                         Vers&nbsp;{{project.name}}&nbsp;
                                         <i class="bi bi-box-arrow-up-right"></i>

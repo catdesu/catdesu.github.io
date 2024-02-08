@@ -3,8 +3,9 @@
 }
 
 .nav-link {
-    margin-top: 5px;
     border-radius: 10px;
+    margin-right: .25rem;
+    padding: .25rem;
 }
 
 .active, .nav-link:hover {
@@ -12,13 +13,10 @@
 }
 
 #navbar {
-    top: 40%;
-    left: 3.5%;
+    top: .5rem;
     margin: .5rem;
     border: solid 1px #ddd;
     border-radius: 10px;
-    max-width: 175px;
-    max-height: 250px;
 }
 
 @media only screen and (max-width: 1000px) {

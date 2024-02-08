@@ -1,3 +1,14 @@
 .order-first {
     order: 0;
 }
+
+.btn-custom-outline-primary:nth-child(2) {
+    margin-left: .25rem;
+}
+
+@media screen and (max-width: 1200px) {
+    .btn-custom-outline-primary:nth-child(2) {
+        margin-left: 0rem;
+        margin-top: .25rem;
+    }
+}

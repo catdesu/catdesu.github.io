@@ -5,7 +5,25 @@
         "image": "../assets/images/projects/OrifStock.png",
         "url": "https://stock.sectioninformatique.ch",
         "pro": true,
-        "description": "Application web est conçue pour faciliter la gestion de l'inventaire du stock au sein de l'Orif de Pomy"
+        "description": "Application web est conçue pour faciliter la gestion de l'inventaire du stock au sein de l'Orif de Pomy",
+        "devTools": [
+            {
+                "name": "PHP",
+                "icon": "php.svg"
+            },
+            {
+                "name": "CodeIgniter 4",
+                "icon": "codeigniter.svg"
+            },
+            {
+                "name": "Bootstrap 5",
+                "icon": "bootstrap.png"
+            },
+            {
+                "name": "MySQL",
+                "icon": "mysql.png"
+            }
+        ]
     },
     {
         "id": "quards",
@@ -13,7 +31,25 @@
         "image": "../assets/images/projects/QuardsApp.png",
         "url": "https://quardsapp.weedoo.swiss/public",
         "pro": true,
-        "description": "Application web et mobile qui offre un service d'abonnement permettant aux utilisateurs d'accéder à des cartes de visite sous forme de QR code"
+        "description": "Application web et mobile qui offre un service d'abonnement permettant aux utilisateurs d'accéder à des cartes de visite sous forme de QR code",
+        "devTools": [
+            {
+                "name": "PHP",
+                "icon": "php.svg"
+            },
+            {
+                "name": "CodeIgniter 4",
+                "icon": "codeigniter.svg"
+            },
+            {
+                "name": "Bootstrap 5",
+                "icon": "bootstrap.png"
+            },
+            {
+                "name": "MySQL",
+                "icon": "mysql.png"
+            }
+        ]
     },
     {
         "id": "timbreuse",
@@ -21,7 +57,25 @@
         "image": "../assets/images/projects/OrifTimbreuse.png",
         "url": "https://timbreuse.sectioninformatique.ch",
         "pro": true,
-        "description": "Application web servant à gérer les timbrages et plannings horaires au sein de l'Orif de Pomy"
+        "description": "Application web servant à gérer les timbrages et plannings horaires au sein de l'Orif de Pomy",
+        "devTools": [
+            {
+                "name": "PHP",
+                "icon": "php.svg"
+            },
+            {
+                "name": "CodeIgniter 4",
+                "icon": "codeigniter.svg"
+            },
+            {
+                "name": "Bootstrap 5",
+                "icon": "bootstrap.png"
+            },
+            {
+                "name": "MySQL",
+                "icon": "mysql.png"
+            }
+        ]
     },
     {
         "id": "tetris",
@@ -29,13 +83,45 @@
         "image": "../assets/images/projects/tetrisGame.png",
         "repository": "https://github.com/catdesu/tetris.js.git",
         "pro": false,
-        "description": "Un clone du jeu Tetris développé en utilisant JavaScript et TailWind CSS."
+        "description": "Un clone de Tetris avec des fonctionnalités supplémentaires comme la prévisualisation des pièces et la compatibilité tactile.",
+        "devTools": [
+            {
+                "name": "JavaScript",
+                "icon": "javascript.png"
+            },
+            {
+                "name": "Tailwind CSS",
+                "icon": "tailwind.svg"
+            }
+        ]
     },
     {
         "id": "ichi",
         "name": "Ichi",
         "image": "../assets/images/projects/ichiGame.png",
         "pro": false,
-        "description": "Un clone du jeu UNO utilisant le Websockets."
+        "description": "Un clone du jeu UNO respectant les règles officielles et jouable de 2 à 4 joueurs.",
+        "devTools": [
+            {
+                "name": "TypeScript",
+                "icon": "typescript.svg"
+            },
+            {
+                "name": "Angular",
+                "icon": "angular.svg"
+            },
+            {
+                "name": "NestJS",
+                "icon": "nestjs.svg"
+            },
+            {
+                "name": "Socket.IO",
+                "icon": "socket-io.svg"
+            },
+            {
+                "name": "MySQL",
+                "icon": "mysql.png"
+            }
+        ]
     }
 ]

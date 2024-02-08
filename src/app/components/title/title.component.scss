@@ -1,6 +1,15 @@
 h1 + hr:first-of-type {
 	border: white solid 2px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
 	opacity: 1;
+}
+
+@media screen and (max-width: 736px) {
+    h1 + hr:first-of-type {
+        width: 50%;
+    }   
 }
 
 #title {

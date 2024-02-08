@@ -18,7 +18,7 @@ h1 {
 }
 
 hr {
-	border: #005842 solid 1px;
+	border: $primary solid 1px;
 	opacity: 1;
 	margin: 40px 0px 40px 0px;
 }
@@ -27,7 +27,7 @@ h2 {
 	text-transform: uppercase;
 	font-family: sans-serif;
 	font-size: 54px;
-	color: #005842;
+	color: $primary;
 	line-height: 64px;
 	text-align: center;
 	width: 100%;
@@ -38,12 +38,17 @@ h2.text-light {
 }
 
 h3 {
-	color: #005842;
+	color: $primary;
 	margin: 20px 0px 20px 0px;
 }
 
 h5 {
 	line-height: 0;
+}
+
+a, a:hover, a:visited {
+    color: $primary;
+    text-decoration: none;
 }
 
 section {
@@ -74,7 +79,7 @@ ul.timeline > li > span .float-right {
 }
 
 .location {
-	color: #005842;
+	color: $primary;
 }
 
 .justify {
@@ -95,18 +100,18 @@ ul.timeline > li > span .float-right {
 }
 
 .btn {
-	border-color: #005842;
-	color: #005842;
+	border-color: $primary;
+	color: $primary;
 }
 
 .btn-custom-outline-primary:hover {
-	border-color: #005842;
-	background-color: #005842;
+	border-color: $primary;
+	background-color: $primary;
 	color: #fff;
 }
 
 .btn-custom-outline-primary:focus {
-	border-color: #005842 !important;
+	border-color: $primary !important;
     box-shadow: 0 0 0 0.2rem rgba(0, 88, 66, 1) !important;
 }
 
@@ -128,7 +133,7 @@ ul.timeline > li > span .float-right {
 	
 	h2 {
 		font-size: 38px;
-		color: #005842;
+		color: $primary;
 	}
 
 	.title {
