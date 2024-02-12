@@ -79,9 +79,10 @@
     },
     {
         "id": "tetris",
-        "name": "tetris.js",
+        "name": "Tetris Clone",
         "image": "../assets/images/projects/tetrisGame.png",
         "repository": "https://github.com/catdesu/tetris.js.git",
+        "url": "https://noobill.ch/tetris",
         "pro": false,
         "description": "Un clone de Tetris avec des fonctionnalités supplémentaires comme la prévisualisation des pièces et la compatibilité tactile.",
         "devTools": [
