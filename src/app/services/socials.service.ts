@@ -3,11 +3,10 @@ import socials from '../../assets/data/socials.json';
 import { Social } from '../interfaces/social';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class SocialsService {
-
-  constructor() { }
+  constructor() {}
 
   getAll(): Social[] {
     return socials;

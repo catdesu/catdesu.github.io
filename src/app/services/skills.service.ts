@@ -1,49 +1,22 @@
 import { Injectable } from '@angular/core';
-import { Skills } from '../interfaces/skills';
-import * as json from '../../assets/data/skills.json';
+import { Skill } from '../interfaces/skill';
+import skills from '../../assets/data/skills.json';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class SkillsService {
+  constructor() {}
 
-  public skills = (json as any).default;
-
-  constructor() { }
-
-  public getSkills() : Array<Skills> {
-    let skills = [];
-
-    for (let skill of this.skills) {
-      if (!skill.languages && !skill.tools) {
-        skills.push(skill);
-      }
-    }
-
-    return skills;
+  public getSkills(): Skill[] {
+    return skills.filter((skill: Skill) => !skill.isSpokenLanguage && !skill.isTool);
   }
 
-  public getLanguages() : Array<Skills> {
-    let skills = [];
-
-    for (let skill of this.skills) {
-      if (skill.languages && !skill.tools) {
-        skills.push(skill);
-      }
-    }
-
-    return skills;
+  public getLanguages(): Skill[] {
+    return skills.filter((skill: Skill) => skill.isSpokenLanguage && !skill.isTool);
   }
 
-  public getTools() : Array<Skills> {
-    let skills = [];
-
-    for (let skill of this.skills) {
-      if (!skill.languages && skill.tools) {
-        skills.push(skill);
-      }
-    }
-
-    return skills;
+  public getTools(): Skill[] {
+    return skills.filter((skill: Skill) => !skill.isSpokenLanguage && skill.isTool);
   }
 }

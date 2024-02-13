@@ -3,16 +3,16 @@ import { Project } from '../interfaces/project';
 import projects from '../../assets/data/projects.json';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class ProjectsService {
-  constructor() { }
+  constructor() {}
 
   getProProjects(): Project[] {
-    return projects.filter(project => project.pro === true);
+    return projects.filter((project: Project) => project.pro);
   }
-  
+
   getPersonalProjects(): Project[] {
-    return projects.filter(project => project.pro !== true);
+    return projects.filter((project: Project) => !project.pro);
   }
 }

@@ -1,12 +1,12 @@
 [
-    {
-        "name": "GitHub",
-        "image": "github.svg",
-        "link": "https://github.com/catdesu"
-    },
-    {
-        "name": "LinkedIn",
-        "image": "linkedin.svg",
-        "link": "https://www.linkedin.com/in/aeschlimann-david"
-    }
+  {
+    "name": "GitHub",
+    "image": "github.svg",
+    "link": "https://github.com/catdesu"
+  },
+  {
+    "name": "LinkedIn",
+    "image": "linkedin.svg",
+    "link": "https://www.linkedin.com/in/aeschlimann-david"
+  }
 ]

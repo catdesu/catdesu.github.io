@@ -1,202 +1,202 @@
 [
-    {
-        "title": "Orif", 
-        "duration": "2020 - Maintenant", 
-        "job": "Apprenti informaticien CFC", 
-        "orientation": "Orientation développement d'applications", 
-        "description": "Développement d'applications web, notamment une application de gestion de stock et une application de cartes de visite en format QR code.", 
-        "languages": [
-            {
-                "name": "HTML",
-                "icon": "html.png"
-            },
-            {
-                "name": "CSS",
-                "icon": "css.png"
-            },
-            {
-                "name": "Bootstrap 5",
-                "icon": "bootstrap.png"
-            },
-            {
-                "name": "PHP",
-                "icon": "php.svg"
-            },
-            {
-                "name": "CodeIgniter 4",
-                "icon": "codeigniter.svg"
-            },
-            {
-                "name": "JavaScript",
-                "icon": "javascript.png"
-            },
-            {
-                "name": "JQuery",
-                "icon": "jquery.svg"
-            },
-            {
-                "name": "TypeScript",
-                "icon": "typescript.svg"
-            },
-            {
-                "name": "NestJS",
-                "icon": "nestjs.svg"
-            },
-            {
-                "name": "MySQL",
-                "icon": "mysql.png"
-            },
-            {
-                "name": "MariaDB",
-                "icon": "mariadb.png"
-            },
-            {
-                "name": "Git",
-                "icon": "git.png"
-            },
-            {
-                "name": "GitHub",
-                "icon": "github.png"
-            }
-        ],
-        "location": "Pomy, Suisse"
-    },
-    {
-        "title": "EVA IT Solution", 
-        "duration": "2023", 
-        "job": "Stagiaire informaticien", 
-        "orientation": "Orientation développement d'applications", 
-        "description": "Intégration de machine learning dans une application métier de gestion de chantier.", 
-        "languages": [
-            {
-                "name": "HTML",
-                "icon": "html.png"
-            },
-            {
-                "name": "CSS",
-                "icon": "css.png"
-            },
-            {
-                "name": "Python",
-                "icon": "python.svg"
-            },
-            {
-                "name": "Flask",
-                "icon": "flask.png"
-            },
-            {
-                "name": "TypeScript",
-                "icon": "typescript.svg"
-            },
-            {
-                "name": "Angular",
-                "icon": "angular.svg"
-            },
-            {
-                "name": "MongoDB",
-                "icon": "mongodb.svg"
-            },
-            {
-                "name": "Git",
-                "icon": "git.png"
-            },
-            {
-                "name": "GitLab",
-                "icon": "gitlab.png"
-            }
-        ],
-        "location": "Yverdon, Suisse"
-    },
-    {
-        "title": "hemmer", 
-        "duration": "2022", 
-        "job": "Stagiaire informaticien", 
-        "orientation": "Orientation développement d'applications",
-        "description": "Réfection du site fribourg.ch en responsive design à partir d'une maquette.", 
-        "languages": [
-            {
-                "name": "HTML",
-                "icon": "html.png"
-            },
-            {
-                "name": "CSS",
-                "icon": "css.png"
-            },
-            {
-                "name": "Bootstrap 5",
-                "icon": "bootstrap.png"
-            },
-            {
-                "name": "PHP",
-                "icon": "php.svg"
-            }
-        ],
-        "location": "Fribourg, Suisse"
-    },
-    {
-        "title": "Orif", 
-        "duration": "2019 - 2020", 
-        "job": "Préformation informaticien", 
-        "orientation": "", 
-        "description": "Gestion d'appels d'offres, suivi de la création d'applications web utilisant des bases de données. En parallèle, j'ai acquis des connaissances de base en matière de TCP/IP en mettant en réseau divers appareils informatiques.", 
-        "languages": [
-            {
-                "name": "HTML",
-                "icon": "html.png"
-            },
-            {
-                "name": "CSS",
-                "icon": "css.png"
-            },
-            {
-                "name": "Bootstrap 5",
-                "icon": "bootstrap.png"
-            },
-            {
-                "name": "Python",
-                "icon": "python.svg"
-            },
-            {
-                "name": "C#",
-                "icon": "csharp.png"
-            },
-            {
-                "name": "PHP",
-                "icon": "php.svg"
-            },
-            {
-                "name": "MySQL",
-                "icon": "mysql.png"
-            },
-            {
-                "name": "MariaDB",
-                "icon": "mariadb.png"
-            }
-        ],
-        "location": "Pomy & La-Chaux-de-Fonds, Suisse"
-    },
-    {
-        "title": "Infoteam Informatique Technique SA", 
-        "duration": "2018", 
-        "job": "Stagiaire informaticien", 
-        "orientation": "", 
-        "description": "Découverte de divers domaines de l'informatique, notamment les algorithmes, le support client, la sécurité des applications web, et l'assemblage de PC spécialisé dans le contexte des barrages hydroélectriques.", 
-        "location": "Givisiez, Suisse"
-    },
-    {
-        "title": "Charles Marion SA", 
-        "duration": "2017", 
-        "job": "Stagiaire automaticien", 
-        "orientation": "", 
-        "description": "Assemblage de tableaux électriques et fabrication des pièces.", 
-        "location": "Domdidier, Suisse"
-    },
-    {
-        "title": "Micarna SA", 
-        "duration": "2017", 
-        "job": "Stagiaire opérateur sur machines automatisées", 
-        "orientation": "", 
-        "description": "Utilisation de machines automatisées dans le secteur alimentaire, tout en acquérant des connaissances sur leur aspect mécanique, la sécurité et les normes d'hygiène essentielles dans ce domaine.", 
-        "location": "Courtepin, Suisse"
-    }
+  {
+    "title": "Orif",
+    "duration": "2020 - Maintenant",
+    "job": "Apprenti informaticien CFC",
+    "orientation": "Orientation développement d'applications",
+    "description": "Développement d'applications web, notamment une application de gestion de stock et une application de cartes de visite en format QR code.",
+    "languages": [
+      {
+        "name": "HTML",
+        "icon": "html.png"
+      },
+      {
+        "name": "CSS",
+        "icon": "css.png"
+      },
+      {
+        "name": "Bootstrap 5",
+        "icon": "bootstrap.png"
+      },
+      {
+        "name": "PHP",
+        "icon": "php.svg"
+      },
+      {
+        "name": "CodeIgniter 4",
+        "icon": "codeigniter.svg"
+      },
+      {
+        "name": "JavaScript",
+        "icon": "javascript.png"
+      },
+      {
+        "name": "JQuery",
+        "icon": "jquery.svg"
+      },
+      {
+        "name": "TypeScript",
+        "icon": "typescript.svg"
+      },
+      {
+        "name": "NestJS",
+        "icon": "nestjs.svg"
+      },
+      {
+        "name": "MySQL",
+        "icon": "mysql.png"
+      },
+      {
+        "name": "MariaDB",
+        "icon": "mariadb.png"
+      },
+      {
+        "name": "Git",
+        "icon": "git.png"
+      },
+      {
+        "name": "GitHub",
+        "icon": "github.png"
+      }
+    ],
+    "location": "Pomy, Suisse"
+  },
+  {
+    "title": "EVA IT Solution",
+    "duration": "2023",
+    "job": "Stagiaire informaticien",
+    "orientation": "Orientation développement d'applications",
+    "description": "Intégration de machine learning dans une application métier de gestion de chantier.",
+    "languages": [
+      {
+        "name": "HTML",
+        "icon": "html.png"
+      },
+      {
+        "name": "CSS",
+        "icon": "css.png"
+      },
+      {
+        "name": "Python",
+        "icon": "python.svg"
+      },
+      {
+        "name": "Flask",
+        "icon": "flask.png"
+      },
+      {
+        "name": "TypeScript",
+        "icon": "typescript.svg"
+      },
+      {
+        "name": "Angular",
+        "icon": "angular.svg"
+      },
+      {
+        "name": "MongoDB",
+        "icon": "mongodb.svg"
+      },
+      {
+        "name": "Git",
+        "icon": "git.png"
+      },
+      {
+        "name": "GitLab",
+        "icon": "gitlab.png"
+      }
+    ],
+    "location": "Yverdon, Suisse"
+  },
+  {
+    "title": "hemmer",
+    "duration": "2022",
+    "job": "Stagiaire informaticien",
+    "orientation": "Orientation développement d'applications",
+    "description": "Réfection du site fribourg.ch en responsive design à partir d'une maquette.",
+    "languages": [
+      {
+        "name": "HTML",
+        "icon": "html.png"
+      },
+      {
+        "name": "CSS",
+        "icon": "css.png"
+      },
+      {
+        "name": "Bootstrap 5",
+        "icon": "bootstrap.png"
+      },
+      {
+        "name": "PHP",
+        "icon": "php.svg"
+      }
+    ],
+    "location": "Fribourg, Suisse"
+  },
+  {
+    "title": "Orif",
+    "duration": "2019 - 2020",
+    "job": "Préformation informaticien",
+    "orientation": "",
+    "description": "Gestion d'appels d'offres, suivi de la création d'applications web utilisant des bases de données. En parallèle, j'ai acquis des connaissances de base en matière de TCP/IP en mettant en réseau divers appareils informatiques.",
+    "languages": [
+      {
+        "name": "HTML",
+        "icon": "html.png"
+      },
+      {
+        "name": "CSS",
+        "icon": "css.png"
+      },
+      {
+        "name": "Bootstrap 5",
+        "icon": "bootstrap.png"
+      },
+      {
+        "name": "Python",
+        "icon": "python.svg"
+      },
+      {
+        "name": "C#",
+        "icon": "csharp.png"
+      },
+      {
+        "name": "PHP",
+        "icon": "php.svg"
+      },
+      {
+        "name": "MySQL",
+        "icon": "mysql.png"
+      },
+      {
+        "name": "MariaDB",
+        "icon": "mariadb.png"
+      }
+    ],
+    "location": "Pomy & La-Chaux-de-Fonds, Suisse"
+  },
+  {
+    "title": "Infoteam Informatique Technique SA",
+    "duration": "2018",
+    "job": "Stagiaire informaticien",
+    "orientation": "",
+    "description": "Découverte de divers domaines de l'informatique, notamment les algorithmes, le support client, la sécurité des applications web, et l'assemblage de PC spécialisé dans le contexte des barrages hydroélectriques.",
+    "location": "Givisiez, Suisse"
+  },
+  {
+    "title": "Charles Marion SA",
+    "duration": "2017",
+    "job": "Stagiaire automaticien",
+    "orientation": "",
+    "description": "Assemblage de tableaux électriques et fabrication des pièces.",
+    "location": "Domdidier, Suisse"
+  },
+  {
+    "title": "Micarna SA",
+    "duration": "2017",
+    "job": "Stagiaire opérateur sur machines automatisées",
+    "orientation": "",
+    "description": "Utilisation de machines automatisées dans le secteur alimentaire, tout en acquérant des connaissances sur leur aspect mécanique, la sécurité et les normes d'hygiène essentielles dans ce domaine.",
+    "location": "Courtepin, Suisse"
+  }
 ]

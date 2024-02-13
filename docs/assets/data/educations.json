@@ -1,96 +1,96 @@
 [
-    {
-        "title": "EPSIC", 
-        "duration": "2020 - Maintenant", 
-        "job": "Informaticien CFC", 
-        "orientation": "Orientation développement d'applications", 
-        "description": "Apprentissage en 4 ans, actuellement en 4ème année", 
-        "languages": [
-            {
-                "name": "HTML",
-                "icon": "html.png"
-            },
-            {
-                "name": "CSS",
-                "icon": "css.png"
-            },
-            {
-                "name": "Bootstrap 5",
-                "icon": "bootstrap.png"
-            },
-            {
-                "name": "Java",
-                "icon": "java.png"
-            },
-            {
-                "name": "Python",
-                "icon": "python.svg"
-            },
-            {
-                "name": "Flask",
-                "icon": "flask.png"
-            },
-            {
-                "name": "C#",
-                "icon": "csharp.png"
-            },
-            {
-                "name": "ASP.NET",
-                "icon": "dotnet.png"
-            },
-            {
-                "name": "TypeScript",
-                "icon": "typescript.svg"
-            },
-            {
-                "name": "Angular",
-                "icon": "angular.svg"
-            },
-            {
-                "name": "PHP",
-                "icon": "php.svg"
-            },
-            {
-                "name": "Laravel",
-                "icon": "laravel.svg"
-            },
-            {
-                "name": "MySQL",
-                "icon": "mysql.png"
-            },
-            {
-                "name": "MariaDB",
-                "icon": "mariadb.png"
-            },
-            {
-                "name": "Git",
-                "icon": "git.png"
-            },
-            {
-                "name": "GitLab",
-                "icon": "gitlab.png"
-            },
-            {
-                "name": "GitHub",
-                "icon": "github.png"
-            }
-        ],
-        "location": "Lausanne, Suisse"
-    },
-    {
-        "title": "IFP", 
-        "duration": "2016 - 2018", 
-        "job": "Aide-comptable", 
-        "orientation": "", 
-        "description": "Acquisition de compétences en comptabilité générale, en opérations comptables, en bouclements et rémunérations au cours de ma formation. Cependant, j'ai réalisé que le domaine de la comptabilité ne correspondait pas à mes préférences professionnelles, ce qui m'a conduit à changer de carrière.", 
-        "location": "Gland, Suisse"
-    },
-    {
-        "title": "C.O de la Broye", 
-        "duration": "2009 - 2013", 
-        "job": "Diplôme de fin de scolarité obligatoire", 
-        "orientation": "", 
-        "description": "J'avais un intérêt particulier pour les mathématiques, l'anglais, les sciences et le dessin technique.", 
-        "location": "Estavayer-le-Lac, Suisse"
-    }
+  {
+    "title": "EPSIC",
+    "duration": "2020 - Maintenant",
+    "job": "Informaticien CFC",
+    "orientation": "Orientation développement d'applications",
+    "description": "Apprentissage en 4 ans, actuellement en 4ème année",
+    "languages": [
+      {
+        "name": "HTML",
+        "icon": "html.png"
+      },
+      {
+        "name": "CSS",
+        "icon": "css.png"
+      },
+      {
+        "name": "Bootstrap 5",
+        "icon": "bootstrap.png"
+      },
+      {
+        "name": "Java",
+        "icon": "java.png"
+      },
+      {
+        "name": "Python",
+        "icon": "python.svg"
+      },
+      {
+        "name": "Flask",
+        "icon": "flask.png"
+      },
+      {
+        "name": "C#",
+        "icon": "csharp.png"
+      },
+      {
+        "name": "ASP.NET",
+        "icon": "dotnet.png"
+      },
+      {
+        "name": "TypeScript",
+        "icon": "typescript.svg"
+      },
+      {
+        "name": "Angular",
+        "icon": "angular.svg"
+      },
+      {
+        "name": "PHP",
+        "icon": "php.svg"
+      },
+      {
+        "name": "Laravel",
+        "icon": "laravel.svg"
+      },
+      {
+        "name": "MySQL",
+        "icon": "mysql.png"
+      },
+      {
+        "name": "MariaDB",
+        "icon": "mariadb.png"
+      },
+      {
+        "name": "Git",
+        "icon": "git.png"
+      },
+      {
+        "name": "GitLab",
+        "icon": "gitlab.png"
+      },
+      {
+        "name": "GitHub",
+        "icon": "github.png"
+      }
+    ],
+    "location": "Lausanne, Suisse"
+  },
+  {
+    "title": "IFP",
+    "duration": "2016 - 2018",
+    "job": "Aide-comptable",
+    "orientation": "",
+    "description": "Acquisition de compétences en comptabilité générale, en opérations comptables, en bouclements et rémunérations au cours de ma formation. Cependant, j'ai réalisé que le domaine de la comptabilité ne correspondait pas à mes préférences professionnelles, ce qui m'a conduit à changer de carrière.",
+    "location": "Gland, Suisse"
+  },
+  {
+    "title": "C.O de la Broye",
+    "duration": "2009 - 2013",
+    "job": "Diplôme de fin de scolarité obligatoire",
+    "orientation": "",
+    "description": "J'avais un intérêt particulier pour les mathématiques, l'anglais, les sciences et le dessin technique.",
+    "location": "Estavayer-le-Lac, Suisse"
+  }
 ]

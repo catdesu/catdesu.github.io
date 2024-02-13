@@ -2,283 +2,283 @@
     {
         "name": "HTML",
         "details": "",
-        "languages": false,
-        "tools": false
+        "isSpokenLanguage": false,
+        "isTool": false
     },
     {
         "name": "CSS",
         "details": "",
-        "languages": false,
-        "tools": false
+        "isSpokenLanguage": false,
+        "isTool": false
     },
     {
         "name": "PHP",
         "details": "",
-        "languages": false,
-        "tools": false
+        "isSpokenLanguage": false,
+        "isTool": false
     },
     {
         "name": "JavaScript",
         "details": "",
-        "languages": false,
-        "tools": false
+        "isSpokenLanguage": false,
+        "isTool": false
     },
     {
         "name": "TypeScript",
         "details": "",
-        "languages": false,
-        "tools": false
+        "isSpokenLanguage": false,
+        "isTool": false
     },
     {
         "name": "C#",
         "details": "",
-        "languages": false,
-        "tools": false
+        "isSpokenLanguage": false,
+        "isTool": false
     },
     {
         "name": "Python",
         "details": "",
-        "languages": false,
-        "tools": false
+        "isSpokenLanguage": false,
+        "isTool": false
     },
     {
         "name": "Java",
         "details": "",
-        "languages": false,
-        "tools": false
+        "isSpokenLanguage": false,
+        "isTool": false
     },
     {
         "name": "Node.js",
         "details": "",
-        "languages": false,
-        "tools": false
+        "isSpokenLanguage": false,
+        "isTool": false
     },
     {
         "name": "Bootstrap 5",
         "details": "",
-        "languages": false,
-        "tools": false
+        "isSpokenLanguage": false,
+        "isTool": false
     },
     {
         "name": "CodeIgniter 4",
         "details": "",
-        "languages": false,
-        "tools": false
+        "isSpokenLanguage": false,
+        "isTool": false
     },
     {
         "name": "Laravel",
         "details": "",
-        "languages": false,
-        "tools": false
+        "isSpokenLanguage": false,
+        "isTool": false
     },
     {
         "name": "Angular",
         "details": "",
-        "languages": false,
-        "tools": false
+        "isSpokenLanguage": false,
+        "isTool": false
     },
     {
         "name": "NestJS",
         "details": "",
-        "languages": false,
-        "tools": false
+        "isSpokenLanguage": false,
+        "isTool": false
     },
     {
         "name": "ASP.NET",
         "details": "",
-        "languages": false,
-        "tools": false
+        "isSpokenLanguage": false,
+        "isTool": false
     },
     {
         "name": "Flask",
         "details": "",
-        "languages": false,
-        "tools": false
+        "isSpokenLanguage": false,
+        "isTool": false
     },
     {
         "name": "JQuery",
         "details": "",
-        "languages": false,
-        "tools": false
+        "isSpokenLanguage": false,
+        "isTool": false
     },
     {
         "name": "MySQL",
         "details": "",
-        "languages": false,
-        "tools": false
+        "isSpokenLanguage": false,
+        "isTool": false
     },
     {
         "name": "MongoDB",
         "details": "",
-        "languages": false,
-        "tools": false
+        "isSpokenLanguage": false,
+        "isTool": false
     },
     {
         "name": "SQL",
         "details": "",
-        "languages": false,
-        "tools": false
+        "isSpokenLanguage": false,
+        "isTool": false
     },
     {
         "name": "Bash",
         "details": "",
-        "languages": false,
-        "tools": false
+        "isSpokenLanguage": false,
+        "isTool": false
     },
     {
         "name": "Batch",
         "details": "",
-        "languages": false,
-        "tools": false
+        "isSpokenLanguage": false,
+        "isTool": false
     },
     {
         "name": "Français",
         "details": "Langue maternelle",
-        "languages": true,
-        "tools": false
+        "isSpokenLanguage": true,
+        "isTool": false
     },
     {
         "name": "Anglais",
         "details": "C1",
-        "languages": true,
-        "tools": false
+        "isSpokenLanguage": true,
+        "isTool": false
     },
     {
         "name": "Japonais",
         "details": "A2",
-        "languages": true,
-        "tools": false
+        "isSpokenLanguage": true,
+        "isTool": false
     },
     {
         "name": "Allemand",
         "details": "A1",
-        "languages": true,
-        "tools": false
+        "isSpokenLanguage": true,
+        "isTool": false
     },
     {
         "name": "Firefox",
         "details": "",
-        "languages": false,
-        "tools": true
+        "isSpokenLanguage": false,
+        "isTool": true
     },
     {
         "name": "Chrome",
         "details": "",
-        "languages": false,
-        "tools": true
+        "isSpokenLanguage": false,
+        "isTool": true
     },
     {
         "name": "GitHub",
         "details": "",
-        "languages": false,
-        "tools": true
+        "isSpokenLanguage": false,
+        "isTool": true
     },
     {
         "name": "Windows",
         "details": "",
-        "languages": false,
-        "tools": true
+        "isSpokenLanguage": false,
+        "isTool": true
     },
     {
         "name": "Mac OS",
         "details": "",
-        "languages": false,
-        "tools": true
+        "isSpokenLanguage": false,
+        "isTool": true
     },
     {
         "name": "Linux",
         "details": "",
-        "languages": false,
-        "tools": true
+        "isSpokenLanguage": false,
+        "isTool": true
     },
     {
         "name": "Android",
         "details": "",
-        "languages": false,
-        "tools": true
+        "isSpokenLanguage": false,
+        "isTool": true
     },
     {
         "name": "Suite Office",
         "details": "",
-        "languages": false,
-        "tools": true
+        "isSpokenLanguage": false,
+        "isTool": true
     },
     {
         "name": "Laragon",
         "details": "",
-        "languages": false,
-        "tools": true
+        "isSpokenLanguage": false,
+        "isTool": true
     },
     {
         "name": "XAMPP",
         "details": "",
-        "languages": false,
-        "tools": true
+        "isSpokenLanguage": false,
+        "isTool": true
     },
     {
         "name": "VS Code",
         "details": "",
-        "languages": false,
-        "tools": true
+        "isSpokenLanguage": false,
+        "isTool": true
     },
     {
         "name": "WebStorm",
         "details": "",
-        "languages": false,
-        "tools": true
+        "isSpokenLanguage": false,
+        "isTool": true
     },
     {
         "name": "PyCharm",
         "details": "",
-        "languages": false,
-        "tools": true
+        "isSpokenLanguage": false,
+        "isTool": true
     },
     {
         "name": "VS 2022",
         "details": "",
-        "languages": false,
-        "tools": true
+        "isSpokenLanguage": false,
+        "isTool": true
     },
     {
         "name": "Draw.io",
         "details": "",
-        "languages": false,
-        "tools": true
+        "isSpokenLanguage": false,
+        "isTool": true
     },
     {
         "name": "Paint.NET",
         "details": "",
-        "languages": false,
-        "tools": true
+        "isSpokenLanguage": false,
+        "isTool": true
     },
     {
         "name": "FileZilla",
         "details": "",
-        "languages": false,
-        "tools": true
+        "isSpokenLanguage": false,
+        "isTool": true
     },
     {
         "name": "Hyper-V",
         "details": "",
-        "languages": false,
-        "tools": true
+        "isSpokenLanguage": false,
+        "isTool": true
     },
     {
         "name": "Virtual Box",
         "details": "",
-        "languages": false,
-        "tools": true
+        "isSpokenLanguage": false,
+        "isTool": true
     },
     {
         "name": "Arduino",
         "details": "",
-        "languages": false,
-        "tools": true
+        "isSpokenLanguage": false,
+        "isTool": true
     },
     {
         "name": "Raspberry pi",
         "details": "",
-        "languages": false,
-        "tools": true
+        "isSpokenLanguage": false,
+        "isTool": true
     }
 ]
