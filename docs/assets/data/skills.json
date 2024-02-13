@@ -1,284 +1,284 @@
 [
-    {
-        "name": "HTML",
-        "details": "",
-        "isSpokenLanguage": false,
-        "isTool": false
-    },
-    {
-        "name": "CSS",
-        "details": "",
-        "isSpokenLanguage": false,
-        "isTool": false
-    },
-    {
-        "name": "PHP",
-        "details": "",
-        "isSpokenLanguage": false,
-        "isTool": false
-    },
-    {
-        "name": "JavaScript",
-        "details": "",
-        "isSpokenLanguage": false,
-        "isTool": false
-    },
-    {
-        "name": "TypeScript",
-        "details": "",
-        "isSpokenLanguage": false,
-        "isTool": false
-    },
-    {
-        "name": "C#",
-        "details": "",
-        "isSpokenLanguage": false,
-        "isTool": false
-    },
-    {
-        "name": "Python",
-        "details": "",
-        "isSpokenLanguage": false,
-        "isTool": false
-    },
-    {
-        "name": "Java",
-        "details": "",
-        "isSpokenLanguage": false,
-        "isTool": false
-    },
-    {
-        "name": "Node.js",
-        "details": "",
-        "isSpokenLanguage": false,
-        "isTool": false
-    },
-    {
-        "name": "Bootstrap 5",
-        "details": "",
-        "isSpokenLanguage": false,
-        "isTool": false
-    },
-    {
-        "name": "CodeIgniter 4",
-        "details": "",
-        "isSpokenLanguage": false,
-        "isTool": false
-    },
-    {
-        "name": "Laravel",
-        "details": "",
-        "isSpokenLanguage": false,
-        "isTool": false
-    },
-    {
-        "name": "Angular",
-        "details": "",
-        "isSpokenLanguage": false,
-        "isTool": false
-    },
-    {
-        "name": "NestJS",
-        "details": "",
-        "isSpokenLanguage": false,
-        "isTool": false
-    },
-    {
-        "name": "ASP.NET",
-        "details": "",
-        "isSpokenLanguage": false,
-        "isTool": false
-    },
-    {
-        "name": "Flask",
-        "details": "",
-        "isSpokenLanguage": false,
-        "isTool": false
-    },
-    {
-        "name": "JQuery",
-        "details": "",
-        "isSpokenLanguage": false,
-        "isTool": false
-    },
-    {
-        "name": "MySQL",
-        "details": "",
-        "isSpokenLanguage": false,
-        "isTool": false
-    },
-    {
-        "name": "MongoDB",
-        "details": "",
-        "isSpokenLanguage": false,
-        "isTool": false
-    },
-    {
-        "name": "SQL",
-        "details": "",
-        "isSpokenLanguage": false,
-        "isTool": false
-    },
-    {
-        "name": "Bash",
-        "details": "",
-        "isSpokenLanguage": false,
-        "isTool": false
-    },
-    {
-        "name": "Batch",
-        "details": "",
-        "isSpokenLanguage": false,
-        "isTool": false
-    },
-    {
-        "name": "Français",
-        "details": "Langue maternelle",
-        "isSpokenLanguage": true,
-        "isTool": false
-    },
-    {
-        "name": "Anglais",
-        "details": "C1",
-        "isSpokenLanguage": true,
-        "isTool": false
-    },
-    {
-        "name": "Japonais",
-        "details": "A2",
-        "isSpokenLanguage": true,
-        "isTool": false
-    },
-    {
-        "name": "Allemand",
-        "details": "A1",
-        "isSpokenLanguage": true,
-        "isTool": false
-    },
-    {
-        "name": "Firefox",
-        "details": "",
-        "isSpokenLanguage": false,
-        "isTool": true
-    },
-    {
-        "name": "Chrome",
-        "details": "",
-        "isSpokenLanguage": false,
-        "isTool": true
-    },
-    {
-        "name": "GitHub",
-        "details": "",
-        "isSpokenLanguage": false,
-        "isTool": true
-    },
-    {
-        "name": "Windows",
-        "details": "",
-        "isSpokenLanguage": false,
-        "isTool": true
-    },
-    {
-        "name": "Mac OS",
-        "details": "",
-        "isSpokenLanguage": false,
-        "isTool": true
-    },
-    {
-        "name": "Linux",
-        "details": "",
-        "isSpokenLanguage": false,
-        "isTool": true
-    },
-    {
-        "name": "Android",
-        "details": "",
-        "isSpokenLanguage": false,
-        "isTool": true
-    },
-    {
-        "name": "Suite Office",
-        "details": "",
-        "isSpokenLanguage": false,
-        "isTool": true
-    },
-    {
-        "name": "Laragon",
-        "details": "",
-        "isSpokenLanguage": false,
-        "isTool": true
-    },
-    {
-        "name": "XAMPP",
-        "details": "",
-        "isSpokenLanguage": false,
-        "isTool": true
-    },
-    {
-        "name": "VS Code",
-        "details": "",
-        "isSpokenLanguage": false,
-        "isTool": true
-    },
-    {
-        "name": "WebStorm",
-        "details": "",
-        "isSpokenLanguage": false,
-        "isTool": true
-    },
-    {
-        "name": "PyCharm",
-        "details": "",
-        "isSpokenLanguage": false,
-        "isTool": true
-    },
-    {
-        "name": "VS 2022",
-        "details": "",
-        "isSpokenLanguage": false,
-        "isTool": true
-    },
-    {
-        "name": "Draw.io",
-        "details": "",
-        "isSpokenLanguage": false,
-        "isTool": true
-    },
-    {
-        "name": "Paint.NET",
-        "details": "",
-        "isSpokenLanguage": false,
-        "isTool": true
-    },
-    {
-        "name": "FileZilla",
-        "details": "",
-        "isSpokenLanguage": false,
-        "isTool": true
-    },
-    {
-        "name": "Hyper-V",
-        "details": "",
-        "isSpokenLanguage": false,
-        "isTool": true
-    },
-    {
-        "name": "Virtual Box",
-        "details": "",
-        "isSpokenLanguage": false,
-        "isTool": true
-    },
-    {
-        "name": "Arduino",
-        "details": "",
-        "isSpokenLanguage": false,
-        "isTool": true
-    },
-    {
-        "name": "Raspberry pi",
-        "details": "",
-        "isSpokenLanguage": false,
-        "isTool": true
-    }
+  {
+    "name": "HTML",
+    "details": "",
+    "isSpokenLanguage": false,
+    "isTool": false
+  },
+  {
+    "name": "CSS",
+    "details": "",
+    "isSpokenLanguage": false,
+    "isTool": false
+  },
+  {
+    "name": "PHP",
+    "details": "",
+    "isSpokenLanguage": false,
+    "isTool": false
+  },
+  {
+    "name": "JavaScript",
+    "details": "",
+    "isSpokenLanguage": false,
+    "isTool": false
+  },
+  {
+    "name": "TypeScript",
+    "details": "",
+    "isSpokenLanguage": false,
+    "isTool": false
+  },
+  {
+    "name": "C#",
+    "details": "",
+    "isSpokenLanguage": false,
+    "isTool": false
+  },
+  {
+    "name": "Python",
+    "details": "",
+    "isSpokenLanguage": false,
+    "isTool": false
+  },
+  {
+    "name": "Java",
+    "details": "",
+    "isSpokenLanguage": false,
+    "isTool": false
+  },
+  {
+    "name": "Node.js",
+    "details": "",
+    "isSpokenLanguage": false,
+    "isTool": false
+  },
+  {
+    "name": "Bootstrap 5",
+    "details": "",
+    "isSpokenLanguage": false,
+    "isTool": false
+  },
+  {
+    "name": "CodeIgniter 4",
+    "details": "",
+    "isSpokenLanguage": false,
+    "isTool": false
+  },
+  {
+    "name": "Laravel",
+    "details": "",
+    "isSpokenLanguage": false,
+    "isTool": false
+  },
+  {
+    "name": "Angular",
+    "details": "",
+    "isSpokenLanguage": false,
+    "isTool": false
+  },
+  {
+    "name": "NestJS",
+    "details": "",
+    "isSpokenLanguage": false,
+    "isTool": false
+  },
+  {
+    "name": "ASP.NET",
+    "details": "",
+    "isSpokenLanguage": false,
+    "isTool": false
+  },
+  {
+    "name": "Flask",
+    "details": "",
+    "isSpokenLanguage": false,
+    "isTool": false
+  },
+  {
+    "name": "JQuery",
+    "details": "",
+    "isSpokenLanguage": false,
+    "isTool": false
+  },
+  {
+    "name": "MySQL",
+    "details": "",
+    "isSpokenLanguage": false,
+    "isTool": false
+  },
+  {
+    "name": "MongoDB",
+    "details": "",
+    "isSpokenLanguage": false,
+    "isTool": false
+  },
+  {
+    "name": "SQL",
+    "details": "",
+    "isSpokenLanguage": false,
+    "isTool": false
+  },
+  {
+    "name": "Bash",
+    "details": "",
+    "isSpokenLanguage": false,
+    "isTool": false
+  },
+  {
+    "name": "Batch",
+    "details": "",
+    "isSpokenLanguage": false,
+    "isTool": false
+  },
+  {
+    "name": "Français",
+    "details": "Langue maternelle",
+    "isSpokenLanguage": true,
+    "isTool": false
+  },
+  {
+    "name": "Anglais",
+    "details": "C1",
+    "isSpokenLanguage": true,
+    "isTool": false
+  },
+  {
+    "name": "Japonais",
+    "details": "A2",
+    "isSpokenLanguage": true,
+    "isTool": false
+  },
+  {
+    "name": "Allemand",
+    "details": "A1",
+    "isSpokenLanguage": true,
+    "isTool": false
+  },
+  {
+    "name": "Firefox",
+    "details": "",
+    "isSpokenLanguage": false,
+    "isTool": true
+  },
+  {
+    "name": "Chrome",
+    "details": "",
+    "isSpokenLanguage": false,
+    "isTool": true
+  },
+  {
+    "name": "GitHub",
+    "details": "",
+    "isSpokenLanguage": false,
+    "isTool": true
+  },
+  {
+    "name": "Windows",
+    "details": "",
+    "isSpokenLanguage": false,
+    "isTool": true
+  },
+  {
+    "name": "Mac OS",
+    "details": "",
+    "isSpokenLanguage": false,
+    "isTool": true
+  },
+  {
+    "name": "Linux",
+    "details": "",
+    "isSpokenLanguage": false,
+    "isTool": true
+  },
+  {
+    "name": "Android",
+    "details": "",
+    "isSpokenLanguage": false,
+    "isTool": true
+  },
+  {
+    "name": "Suite Office",
+    "details": "",
+    "isSpokenLanguage": false,
+    "isTool": true
+  },
+  {
+    "name": "Laragon",
+    "details": "",
+    "isSpokenLanguage": false,
+    "isTool": true
+  },
+  {
+    "name": "XAMPP",
+    "details": "",
+    "isSpokenLanguage": false,
+    "isTool": true
+  },
+  {
+    "name": "VS Code",
+    "details": "",
+    "isSpokenLanguage": false,
+    "isTool": true
+  },
+  {
+    "name": "WebStorm",
+    "details": "",
+    "isSpokenLanguage": false,
+    "isTool": true
+  },
+  {
+    "name": "PyCharm",
+    "details": "",
+    "isSpokenLanguage": false,
+    "isTool": true
+  },
+  {
+    "name": "VS 2022",
+    "details": "",
+    "isSpokenLanguage": false,
+    "isTool": true
+  },
+  {
+    "name": "Draw.io",
+    "details": "",
+    "isSpokenLanguage": false,
+    "isTool": true
+  },
+  {
+    "name": "Paint.NET",
+    "details": "",
+    "isSpokenLanguage": false,
+    "isTool": true
+  },
+  {
+    "name": "FileZilla",
+    "details": "",
+    "isSpokenLanguage": false,
+    "isTool": true
+  },
+  {
+    "name": "Hyper-V",
+    "details": "",
+    "isSpokenLanguage": false,
+    "isTool": true
+  },
+  {
+    "name": "Virtual Box",
+    "details": "",
+    "isSpokenLanguage": false,
+    "isTool": true
+  },
+  {
+    "name": "Arduino",
+    "details": "",
+    "isSpokenLanguage": false,
+    "isTool": true
+  },
+  {
+    "name": "Raspberry pi",
+    "details": "",
+    "isSpokenLanguage": false,
+    "isTool": true
+  }
 ]
