@@ -79,9 +79,9 @@
   },
   {
     "id": "tetris",
-    "name": "tetris.js",
+    "name": "Tetris clone",
     "image": "../assets/images/projects/tetrisGame.png",
-    "repository": "https://github.com/catdesu/tetris.js.git",
+    "repository": "https://github.com/catdesu/tetris-clone",
     "url": "https://noobill.ch/tetris",
     "pro": false,
     "description": "Un clone de Tetris avec des fonctionnalités supplémentaires comme la prévisualisation des pièces et la compatibilité tactile.",
@@ -98,8 +98,10 @@
   },
   {
     "id": "ichi",
-    "name": "Ichi",
+    "name": "Ichi game",
     "image": "../assets/images/projects/ichiGame.png",
+    "repository": "https://github.com/catdesu/ichi-game",
+    "url": "https://noobill.ch/ichi-game",
     "pro": false,
     "description": "Un clone du jeu UNO respectant les règles officielles et jouable de 2 à 4 joueurs.",
     "devTools": [

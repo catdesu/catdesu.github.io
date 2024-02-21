@@ -9,7 +9,11 @@ h1 + hr:first-of-type {
 @media screen and (max-width: 736px) {
     h1 + hr:first-of-type {
         width: 50%;
-    }   
+    }
+
+    h1 {
+        font-size: 3.5rem;
+    }
 }
 
 #title {
