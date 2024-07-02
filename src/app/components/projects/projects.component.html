@@ -5,7 +5,7 @@
             <hr>
             <div *ngFor="let project of projects | keyvalue">
                 <h3 class="text-center text-md-start">{{ project.key }}</h3>
-                <div *ngFor="let project of project.value; let cardIndex = index" class="card mt-4">
+                <div *ngFor="let project of project.value; let cardIndex = index" class="card mt-4 shadow-hover">
                     <div class="row">
                         <div class="d-sm-none col-md-5">
                             <img [src]="project.image" class="img-fluid rounded-top" [alt]="project.name">
