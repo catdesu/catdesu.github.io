@@ -4,7 +4,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BaseComponent } from './components/base/base.component';
-import { SkillsComponent } from './components/skills/skills.component';
 import { ProfileComponent } from './components/profile/profile.component';
 import { CareerComponent } from './components/career/career.component';
 import { FooterComponent } from './components/footer/footer.component';
@@ -18,7 +17,6 @@ import { DevToolsIconsComponent } from './components/dev-tools-icons/dev-tools-i
   declarations: [
     AppComponent,
     BaseComponent,
-    SkillsComponent,
     ProfileComponent,
     CareerComponent,
     FooterComponent,

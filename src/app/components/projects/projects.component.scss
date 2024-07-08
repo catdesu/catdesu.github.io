@@ -3,12 +3,12 @@
 }
 
 .btn-custom-outline-primary:nth-child(1) {
-    margin-right: .25rem;
+    margin-right: 0.25rem;
 }
 
 @media screen and (max-width: 362px) {
     .btn-custom-outline-primary {
-        margin-bottom: .25rem;
+        margin-bottom: 0.25rem;
     }
 }
 
@@ -25,4 +25,14 @@
 .rounded-top {
     border-top-left-radius: 0.375rem;
     border-top-right-radius: 0.375rem;
+}
+
+.card {
+    background-color: #F8F9FA;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card.shadow-hover:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
 }
