@@ -1,19 +1,61 @@
 [
   {
+    "title": "inetis SA, artisans du numérique",
+    "duration": "2024 - Maintenant",
+    "job": "Développeur Junior",
+    "orientation": "",
+    "description": "Intégration technique d'applications web basées sur des maquettes.",
+    "languages": [
+      {
+        "name": "Bootstrap 5",
+        "icon": "bootstrap.png"
+      },
+      {
+        "name": "tailwindcss",
+        "icon": "tailwindcss.svg"
+      },
+      {
+        "name": "PHP",
+        "icon": "php.svg"
+      },
+      {
+        "name": "October CMS",
+        "icon": "october.png"
+      },
+      {
+        "name": "Laravel",
+        "icon": "laravel.svg"
+      },
+      {
+        "name": "JavaScript",
+        "icon": "javascript.png"
+      },
+      {
+        "name": "JQuery",
+        "icon": "jquery.svg"
+      },
+      {
+        "name": "MySQL",
+        "icon": "mysql.png"
+      },
+      {
+        "name": "Git",
+        "icon": "git.png"
+      },
+      {
+        "name": "GitHub",
+        "icon": "github.png"
+      }
+    ],
+    "location": "Vufflens-la-Ville, Suisse"
+  },
+  {
     "title": "Orif",
     "duration": "2020 - 2024",
     "job": "Apprenti informaticien CFC",
     "orientation": "Orientation développement d'applications",
     "description": "Développement d'applications web, notamment une application de gestion de stock et une application de cartes de visite en format QR code.",
     "languages": [
-      {
-        "name": "HTML",
-        "icon": "html.png"
-      },
-      {
-        "name": "CSS",
-        "icon": "css.png"
-      },
       {
         "name": "Bootstrap 5",
         "icon": "bootstrap.png"
@@ -69,14 +111,6 @@
     "description": "Intégration de machine learning dans une application métier de gestion de chantier.",
     "languages": [
       {
-        "name": "HTML",
-        "icon": "html.png"
-      },
-      {
-        "name": "CSS",
-        "icon": "css.png"
-      },
-      {
         "name": "Python",
         "icon": "python.svg"
       },
@@ -115,14 +149,6 @@
     "description": "Réfection du site fribourg.ch en responsive design à partir d'une maquette.",
     "languages": [
       {
-        "name": "HTML",
-        "icon": "html.png"
-      },
-      {
-        "name": "CSS",
-        "icon": "css.png"
-      },
-      {
         "name": "Bootstrap 5",
         "icon": "bootstrap.png"
       },
@@ -140,14 +166,6 @@
     "orientation": "",
     "description": "Gestion d'appels d'offres, suivi de la création d'applications web utilisant des bases de données. En parallèle, j'ai acquis des connaissances de base en matière de TCP/IP en mettant en réseau divers appareils informatiques.",
     "languages": [
-      {
-        "name": "HTML",
-        "icon": "html.png"
-      },
-      {
-        "name": "CSS",
-        "icon": "css.png"
-      },
       {
         "name": "Bootstrap 5",
         "icon": "bootstrap.png"

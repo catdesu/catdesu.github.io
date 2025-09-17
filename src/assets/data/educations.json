@@ -7,14 +7,6 @@
     "description": "Apprentissage en 4 ans obtenu avec une moyenne de 5,4.",
     "languages": [
       {
-        "name": "HTML",
-        "icon": "html.png"
-      },
-      {
-        "name": "CSS",
-        "icon": "css.png"
-      },
-      {
         "name": "Bootstrap 5",
         "icon": "bootstrap.png"
       },
